@@ -1,0 +1,504 @@
+Rank,Company,Industry,Website,City,State,Zip Code,Number of Employees,Ticker Symbol,Annual Rev (in millions),Rank 2020,Rev % change from 2020,"Profit $USD
+(in millions)",Profit % change from 2020,"Assets $USD
+(in millions)","Stockholder's Equity $USD
+(in millions)",Market Value 3/31/22 $USD (in millions),Profits as % of Sales,Profits as % of Assets,Profits as % of Stockholder Equity,Earnings Per Share 2021,EPS % change from 2020,5-YR EPS % annual rate,10-YR EPS % annual rate,2021 Total Return to Investors,5-YR Total Return to Investors,10-YR Total Return to Investors
+1,Walmart,General Merchandisers,www.walmart.com,Bentonville,AR,72716,"2,300,000",WMT,"$572,754",1,2.4,"$13,673",1.2,"$244,860","$83,253","$409,795",2.4,5.6,16.4,4.87,2.5,2.1,0.7,1.9,18.3,11.8
+2,Amazon.com,Internet Services and Retailing,www.amazon.com,Seattle,WA,98109,"1,608,000",AMZN,"$469,822",2,21.7,"$33,364",56.4,"$420,549","$138,245","$1,658,807",7.1,7.9,24.1,64.81,54.9,67.6,47.1,2.4,34.8,34.4
+3,Apple,"Computers, Office Equipment",www.apple.com,Cupertino,CA,95014,"154,000",AAPL,"$365,817",3,33.3,"$94,680",64.9,"$351,002","$63,090","$2,849,538",25.9,27,150.1,5.61,71,22,19,34.7,45.5,30.5
+4,CVS Health,Health Care: Pharmacy and Other Services,www.cvshealth.com,Woonsocket,RI,2895,"258,000",CVS,"$292,111",4,8.7,"$7,910",10.2,"$232,999","$75,075","$132,839",2.7,3.4,10.5,5.95,9,4,8.8,54.9,8.6,12.2
+5,UnitedHealth Group,Health Care: Insurance and Managed Care,www.unitedhealthgroup.com,Minnetonka,MN,55343,"350,000",UNH,"$287,597",5,11.8,"$17,285",12.2,"$212,206","$71,760","$479,830",6,8.1,24.1,18.08,12.8,20.1,14.3,45.1,27.6,27.7
+6,Exxon Mobil,Petroleum Refining,www.exxonmobil.com,Irving,TX,75039,"63,000",XOM,"$285,640",10,57.4,"$23,040",,"$338,923","$168,577","$349,652",8.1,6.8,13.7,5.39,,23.4,-4.4,57.3,-2.5,0.9
+7,Berkshire Hathaway,Insurance: Property and Casualty (Stock),www.berkshirehathaway.com,Omaha,NE,68131,"372,000",BRKA,"$276,094",6,12.5,"$89,795",111.2,"$958,784","$506,199","$779,542",32.5,9.4,17.7,59460,123,32.3,25.3,29.6,13,14.7
+8,Alphabet,Internet Services and Retailing,www.abc.xyz,Mountain View,CA,94043,"156,500",GOOGL,"$257,637",9,41.2,"$76,033",88.8,"$359,268","$251,635","$1,842,326",29.5,21.2,30.2,112.2,91.4,32.1,22.4,65.3,29.6,24.5
+9,McKesson,Wholesalers: Health Care,www.mckesson.com,Irving,TX,75039,"67,500",MCK,"$238,228",7,3.1,"-$4,539",-604.3,"$65,015",-$21,"$45,858",-1.9,-7,,-28.26,-670.9,,,44.3,13.3,13.3
+10,AmerisourceBergen,Wholesalers: Health Care,www.amerisourcebergen.com,Conshohocken,PA,19428,"40,000",ABC,"$213,989",8,12.7,"$1,540",,"$57,338",$223,"$32,356",0.7,2.7,689.5,7.39,,3.2,11.3,38.1,13.1,15.4
+11,Costco Wholesale,General Merchandisers,www.costco.com,Issaquah,WA,98027,"288,000",COST,"$195,929",12,17.5,"$5,007",25.1,"$59,268","$17,564","$255,231",2.6,8.4,28.5,11.27,24.9,16.2,13.1,51.8,31.7,24.4
+12,Cigna,Health Care: Pharmacy and Other Services,www.cigna.com,Bloomfield,CT,6002,"72,963",CI,"$174,078",13,8.5,"$5,365",-36.6,"$154,889","$47,112","$76,286",3.1,3.5,11.4,15.73,-31.5,16.9,12.5,12.3,11.9,18.8
+13,AT&T,Telecommunications,www.att.com,Dallas,TX,75202,"202,600",T,"$168,864",11,-1.7,"$20,081",,"$551,622","$166,332","$169,262",11.9,3.6,12.1,2.76,,5.6,15.4,-8,-4.6,3.7
+14,Microsoft,Computer Software,www.microsoft.com,Redmond,WA,98052,"181,000",MSFT,"$168,088",15,17.5,"$61,271",38.4,"$333,779","$141,988","$2,311,359",36.5,18.4,43.2,8.05,39.8,30.8,11.6,52.5,42.2,31.9
+15,Cardinal Health,Wholesalers: Health Care,www.cardinalhealth.com,Dublin,OH,43017,"46,827",CAH,"$162,467",14,6.2,$611,,"$44,453","$1,791","$15,709",0.4,1.4,34.1,2.08,,-13.6,-2.6,-0.4,-3.2,5.2
+16,Chevron,Petroleum Refining,www.chevron.com,San Ramon,CA,94583,"42,595",CVX,"$162,465",27,71.6,"$15,625",,"$239,535","$139,067","$317,120",9.6,6.5,11.2,8.14,,,-4.9,45.9,4.5,5.2
+17,Home Depot,Specialty Retailers: Other,www.homedepot.com,Atlanta,GA,30339,"490,600",HD,"$151,157",18,14.4,"$16,433",27.7,"$71,876","-$1,696","$309,313",10.9,22.9,,15.53,30.1,19.2,20.2,59.4,28.2,28.5
+18,Walgreens Boots Alliance,Food and Drug Stores,www.walgreensbootsalliance.com,Deerfield,IL,60015,"258,500",WBA,"$148,579",16,6.5,"$2,542",457.5,"$81,285","$23,419","$38,671",1.7,3.1,10.9,2.93,463.5,-5.2,0,35.6,-5.9,7.5
+19,Marathon Petroleum,Petroleum Refining,www.marathonpetroleum.com,Findlay,OH,45840,"17,700",MPC,"$141,032",32,58.5,"$9,738",,"$85,373","$26,206","$47,758",6.9,11.4,37.2,15.24,,47.1,16.4,60.7,9,18.1
+20,Anthem,Health Care: Insurance and Managed Care,www.antheminc.com,Indianapolis,IN,46204,"98,200",ANTM,"$138,639",23,13.8,"$6,104",33.5,"$97,460","$36,060","$118,534",4.4,6.3,16.9,24.73,37.5,21.8,13.1,46,28,23.3
+21,Kroger,Food and Drug Stores,www.thekrogerco.com,Cincinnati,OH,45202,"420,000",KR,"$137,888",17,4.1,"$1,655",-36,"$49,086","$9,452","$41,496",1.2,3.4,17.5,2.17,-33.6,1.1,15.7,45.4,7.7,16.1
+22,Ford Motor,Motor Vehicles and Parts,www.ford.com,Dearborn,MI,48126,"183,000",F,"$136,341",21,7.2,"$17,937",,"$257,035","$48,519","$67,958",13.2,7,37,4.45,,31.1,-1,137.5,16.3,11.1
+23,Verizon Communications,Telecommunications,www.verizon.com,New York,NY,10036,"118,400",VZ,"$133,613",20,4.1,"$22,065",24,"$366,596","$81,790","$213,837",16.5,6,27,5.32,23.7,10.6,20.1,-7.4,4,7.3
+24,JPMorgan Chase,Commercial Banks,www.jpmorganchase.com,New York,NY,10179,"271,025",JPM,"$127,202",19,-1.8,"$48,334",65.9,"$3,743,567","$294,127","$402,527",38,1.3,16.4,15.36,73,19.9,13.1,27.7,15.9,20.1
+25,General Motors,Motor Vehicles and Parts,www.gm.com,Detroit,MI,48265,"157,000",GM,"$127,004",22,3.7,"$10,019",55.9,"$244,718","$59,744","$63,555",7.9,4.1,16.8,6.7,54.7,2.2,3.9,40.8,14.2,14.2
+26,Centene,Health Care: Insurance and Managed Care,www.centene.com,St. Louis,MO,63105,"72,500",CNC,"$125,982",24,13.4,"$1,347",-25.5,"$78,375","$26,795","$49,072",1.1,1.7,5,2.28,-26.9,5.9,15.7,37.3,23.9,23.6
+27,Meta Platforms,Internet Services and Retailing,www.fb.com,Menlo Park,CA,94025,"71,970",FB,"$117,929",34,37.2,"$39,370",35.1,"$165,987","$124,879","$605,251",33.4,23.7,31.5,13.77,36.5,31.6,,23.1,23.9,
+28,Comcast,Telecommunications,www.comcastcorporation.com,Philadelphia,PA,19103,"189,000",CMCSA,"$116,385",26,12.4,"$14,159",34.4,"$275,905","$96,092","$212,246",12.2,5.1,14.7,3.04,33.3,11.2,15,-2.2,9.9,17.7
+29,Phillips 66,Petroleum Refining,www.phillips66.com,Houston,TX,77042,"14,000",PSX,"$114,852",48,75.4,"$1,317",,"$55,594","$19,166","$41,561",1.1,2.4,6.9,2.97,,0.3,,8.6,0.4,
+30,Valero Energy,Petroleum Refining,www.valero.com,San Antonio,TX,78249,"9,804",VLO,"$108,332",53,80.2,$930,,"$57,888","$18,430","$41,572",0.9,1.6,5,2.27,,-14.4,-4.7,40,6.8,18.8
+31,Dell Technologies,"Computers, Office Equipment",www.delltechnologies.com,Round Rock,TX,78682,"133,000",DELL,"$106,995",28,13.6,"$5,563",71.2,"$92,735","-$1,685","$38,164",5.2,6,,7.02,66.4,,,51.5,,
+32,Target,General Merchandisers,www.target.com,Minneapolis,MN,55403,"450,000",TGT,"$106,005",30,13.3,"$6,946",59,"$53,811","$12,827","$98,134",6.6,12.9,54.2,14.1,63.2,24.6,12.7,33,29.7,19.5
+33,Fannie Mae,Diversified Financials,www.fanniemae.com,Washington,DC,20005,"7,400",FNMA,"$101,543",25,-4.6,"$22,176",87.9,"$4,229,166","$47,357",$909,21.8,0.5,46.8,0.01,300,0,,-65.7,-26.8,15.1
+34,United Parcel Service,"Mail, Package and Freight Delivery",www.ups.com,Atlanta,GA,30328,"400,945",UPS,"$97,287",35,15,"$12,890",859.8,"$69,405","$14,253","$186,817",13.2,18.6,90.4,14.68,853.2,30.6,14.4,30.1,16.8,14.7
+35,Lowe's,Specialty Retailers: Other,www.lowes.com,Mooresville,NC,28117,"270,000",LOW,"$96,250",31,7.4,"$8,442",44.7,"$44,640","-$4,816","$133,761",8.8,18.9,,12.04,55.4,28.3,23.7,63.3,31.8,28.3
+36,Bank of America,Commercial Banks,www.bankofamerica.com,Charlotte,NC,28255,"208,248",BAC,"$93,851",29,0.1,"$31,978",78.7,"$3,169,495","$270,066","$332,433",34.1,1,11.8,3.57,90.9,18.9,80,49.5,17.5,24.9
+37,Johnson & Johnson,Pharmaceuticals,www.jnj.com,New Brunswick,NJ,8933,"141,700",JNJ,"$93,775",36,13.6,"$20,878",41.9,"$182,018","$74,023","$466,047",22.3,11.5,28.2,7.81,41.7,5.7,8.4,11.5,11.1,13.2
+38,Archer Daniels Midland,Food Production,www.adm.com,Chicago,IL,60601,"39,979",ADM,"$85,249",51,32.5,"$2,709",52.9,"$56,136","$22,477","$50,769",3.2,4.8,12.1,4.79,52.1,17.3,4.3,37.3,11.4,12
+39,FedEx,"Mail, Package and Freight Delivery",www.fedex.com,Memphis,TN,38120,"484,000",FDX,"$83,959",45,21.3,"$5,231",306.8,"$82,777","$24,168","$59,971",6.2,6.3,21.6,19.45,296.9,24.5,15.6,0.7,8.2,13
+40,Humana,Health Care: Insurance and Managed Care,www.humana.com,Louisville,KY,40202,"95,500",HUM,"$83,064",41,7.7,"$2,933",-12.9,"$44,358","$16,080","$55,155",3.5,6.6,18.2,22.67,-10.4,41,10.4,13.8,18.6,19.1
+41,Wells Fargo,Commercial Banks,www.wellsfargo.com,San Francisco,CA,94104,"247,848",WFC,"$82,407",37,2.6,"$21,548",552.8,"$1,948,068","$187,606","$184,225",26.1,1.1,11.5,4.95,"1,107.30",4.4,5.8,61.2,0.2,8.8
+42,State Farm Insurance,Insurance: Property and Casualty (Mutual),www.statefarm.com,Bloomington,IL,61710,"53,586",,"$82,225",39,4.2,"$1,281",-65.7,"$325,349","$143,206",,1.6,0.4,0.9,,,,,,,
+43,Pfizer,Pharmaceuticals,www.pfizer.com,New York,NY,10017,"79,000",PFE,"$81,288",77,94,"$21,979",128.6,"$181,476","$77,201","$292,385",27,12.1,28.5,3.85,125.1,26.9,11.7,66.5,18.2,15.2
+44,Citigroup,Commercial Banks,www.citigroup.com,New York,NY,10013,"221,768",C,"$79,865",33,-10.1,"$21,952",98.7,"$2,291,413","$201,972","$105,330",27.5,1,10.9,10.14,114.8,16.5,10.8,0.8,3,10.3
+45,PepsiCo,Food Consumer Products,www.pepsico.com,Purchase,NY,10577,"309,000",PEP,"$79,474",44,12.9,"$7,618",7,"$92,377","$16,043","$231,528",9.6,8.2,47.5,5.49,7.2,4.7,3.1,20.5,14,13.4
+46,Intel,Semiconductors and Other Electronic Components,www.intel.com,Santa Clara,CA,95054,"121,100",INTC,"$79,024",40,1.5,"$19,868",-4.9,"$168,406","$95,391","$202,636",25.1,11.8,20.8,4.86,-1.6,18,7.4,6,10,11
+47,Procter & Gamble,Household and Personal Products,www.pg.com,Cincinnati,OH,45202,"101,000",PG,"$76,118",43,7.3,"$14,306",9.8,"$119,307","$46,378","$366,272",18.8,12,30.8,5.5,10.9,8.3,3.4,20.5,17.5,12.7
+48,General Electric,Industrial Machinery,www.ge.com,Boston,MA,2210,"168,000",GE,"$74,196",38,-6.8,"-$6,520",-214.3,"$198,874","$40,310","$100,810",-8.8,-3.3,-16.2,-6.16,-232.8,,,9.7,-15.8,-1.3
+49,International Business Machines,Information Technology Services,www.ibm.com,Armonk,NY,10504,"297,800",IBM,"$72,344",42,-1.7,"$5,743",2.7,"$132,001","$18,901","$116,928",7.9,4.4,30.4,6.35,1.9,-12.5,-7,16.7,1.2,0.8
+50,MetLife,"Insurance: Life, Health (Stock)",www.metlife.com,New York,NY,10166,"43,000",MET,"$71,080",46,4.8,"$6,554",21.2,"$759,708","$67,482","$57,987",9.2,0.9,9.7,7.31,28.7,63.3,1.5,37.3,9.3,11.9
+51,Prudential Financial,"Insurance: Life, Health (Stock)",www.prudential.com,Newark,NJ,7102,"40,916",PRU,"$70,934",55,24.4,"$7,724",,"$937,582","$61,876","$44,482",10.9,0.8,12.5,19.51,,15,10.5,45.1,5.4,12
+52,Albertsons,Food and Drug Stores,www.albertsonscompanies.com,Boise,ID,83706,"300,000",ACI,"$69,690",52,11.6,$850,82.3,"$26,598","$2,923","$16,064",1.2,3.2,29.1,1.47,,,,74.9,,
+53,Walt Disney,Entertainment,www.thewaltdisneycompany.com,Burbank,CA,91521,"171,000",DIS,"$67,418",50,3.1,"$1,995",,"$203,609","$88,553","$249,718",3,1,2.3,1.09,,-28.2,-8,-14.5,9.3,16.6
+54,Energy Transfer,Pipelines,www.energytransfer.com,Dallas,TX,75225,"12,558",ET,"$67,417",81,73.1,"$5,470",,"$105,963","$31,300","$34,497",8.1,5.2,17.5,1.89,,15.5,18.5,43,-8.1,5
+55,Lockheed Martin,Aerospace and Defense,www.lockheedmartin.com,Bethesda,MD,20817,"114,000",LMT,"$67,044",49,2.5,"$6,315",-7.6,"$50,873","$10,959","$117,648",9.4,12.4,57.6,22.76,-6.3,5.4,11.3,3.1,10.2,19.6
+56,Freddie Mac,Diversified Financials,www.freddiemac.com,McLean,VA,22102,"7,301",FMCC,"$65,898",47,-0.5,"$12,109",65.3,"$3,025,586","$28,033",$510,18.4,0.4,43.2,0.15,"1,400.00",38,,-64.4,-26,14.6
+57,Goldman Sachs Group,Commercial Banks,www.goldmansachs.com,New York,NY,10282,"43,900",GS,"$64,989",59,21.5,"$21,635",128.7,"$1,463,988","$109,926","$117,668",33.3,1.5,19.7,59.45,140.3,29.6,29.4,47.6,11.8,17.4
+58,Raytheon Technologies,Aerospace and Defense,www.rtx.com,Waltham,MA,2451,"174,000",RTX,"$64,388",57,13.8,"$3,864",,"$161,404","$73,068","$147,641",6,2.4,5.3,2.56,,-16,-7.3,23.3,8.9,10
+59,HP,"Computers, Office Equipment",www.hp.com,Palo Alto,CA,94304,"51,000",HPQ,"$63,487",56,12.1,"$6,503",128.7,"$38,610","-$1,650","$38,237",10.2,16.8,,5.33,166.5,30.1,4.8,57.4,24.2,14.9
+60,Boeing,Aerospace and Defense,www.boeing.com,Chicago,IL,60606,"142,000",BA,"$62,286",54,7.1,"-$4,202",,"$138,552","-$14,999","$113,059",-6.7,-3,,-7.15,,,,-6,6.9,12.9
+61,Morgan Stanley,Commercial Banks,www.morganstanley.com,New York,NY,10036,"74,814",MS,"$61,121",61,17.4,"$15,034",36.7,"$1,188,140","$105,441","$155,686",24.6,1.3,14.3,8.03,24.3,22.4,20.6,46.5,21.3,22.9
+62,HCA Healthcare,Health Care: Medical Facilities,www.hcahealthcare.com,Nashville,TN,37203,"244,000",HCA,"$58,752",62,14,"$6,956",85.3,"$50,742",-$933,"$75,692",11.8,13.7,,21.16,93.6,23.7,15.6,57.6,29.2,31.1
+63,AbbVie,Pharmaceuticals,www.abbvie.com,North Chicago,IL,60064,"50,000",ABBV,"$56,197",68,22.7,"$11,542",150,"$146,529","$15,408","$286,332",20.5,7.9,74.9,6.45,137.1,12.2,,32.2,22,
+64,Dow,Chemicals,www.dow.com,Midland,MI,48674,"35,700",DOW,"$54,968",82,42.6,"$6,311",415.2,"$62,990","$18,165","$46,840",11.5,10,34.7,8.38,411,,,6.9,,
+65,Tesla,Motor Vehicles and Parts,www.tesla.com,Austin,TX,78725,"99,290",TSLA,"$53,823",100,70.7,"$5,519",665.5,"$62,131","$30,189","$1,113,708",10.3,8.9,18.3,4.9,665.6,,,49.8,89.9,68.5
+66,Allstate,Insurance: Property and Casualty (Stock),www.allstate.com,Northbrook,IL,60062,"54,500",ALL,"$53,228",70,18.8,"$1,599",-71.3,"$99,440","$25,179","$38,554",3,1.6,6.4,4.96,-71.3,1.2,12.6,9.7,12,18.1
+67,American International Group,Insurance: Property and Casualty (Stock),www.aig.com,New York,NY,10020,"36,600",AIG,"$52,057",72,19,"$9,388",,"$596,112","$65,956","$50,608",18,1.6,14.2,10.82,,,1.4,54,0,11.5
+68,Best Buy,Specialty Retailers: Other,www.investors.bestbuy.com,Richfield,MN,55423,"81,375",BBY,"$51,761",66,9.5,"$2,454",36.5,"$17,504","$3,020","$20,473",4.7,14,81.3,9.84,43.9,20.9,,4.3,21.9,19.3
+69,Charter Communications,Telecommunications,www.charter.com,Stamford,CT,6902,"93,700",CHTR,"$51,682",64,7.5,"$4,654",44.4,"$142,491","$14,050","$112,803",9,3.3,33.1,24.47,58.9,9,,-1.4,17.8,26.3
+70,Sysco,Wholesalers: Food and Grocery,www.sysco.com,Houston,TX,77077,"57,710",SYY,"$51,298",60,-3,$524,143.3,"$21,414","$1,553","$41,433",1,2.4,33.8,1.02,142.9,-9.1,-6.3,8.4,9.9,13.5
+71,Merck,Pharmaceuticals,www.merck.com,Kenilworth,NJ,7033,"67,500",MRK,"$51,216",65,6.7,"$13,049",84.6,"$105,694","$38,184","$207,401",25.5,12.3,34.2,5.14,84.9,29.5,9.8,1.4,9.7,11.4
+72,New York Life Insurance,"Insurance: Life, Health (Mutual)",www.newyorklife.com,New York,NY,10010,"14,344",,"$51,199",67,9.6,$277,,"$379,985","$24,566",,0.5,0.1,1.1,,,,,,,
+73,Caterpillar,Construction and Farm Machinery,www.caterpillar.com,Deerfield,IL,60015,"107,700",CAT,"$50,971",78,22.1,"$6,489",116.4,"$82,793","$16,484","$119,407",12.7,7.8,39.4,11.83,116.7,,4.8,15.9,20.5,11.7
+74,Cisco Systems,Network and Other Communications Equipment,www.cisco.com,San Jose,CA,95134,"79,500",CSCO,"$49,818",63,1,"$10,591",-5.6,"$97,497","$41,275","$231,636",21.3,10.9,25.7,2.5,-5.3,3.5,7.9,45.7,19.5,16.8
+75,TJX,Specialty Retailers: Apparel,www.tjx.com,Framingham,MA,1701,"340,000",TJX,"$48,550",97,51.1,"$3,283","3,528.60","$28,462","$6,003","$71,195",6.8,11.5,54.7,2.7,"3,757.10",9.3,10.8,12.9,16.7,18.2
+76,Publix Super Markets,Food and Drug Stores,www.publix.com,Lakeland,FL,33811,"232,000",,"$48,394",69,7.1,"$4,412",11.1,"$31,524","$21,995",,9.1,14,20.1,6.4,12.9,19.5,12.9,,,
+77,ConocoPhillips,"Mining, Crude-Oil Production",www.conocophillips.com,Houston,TX,77079,"9,900",COP,"$48,349",156,151.1,"$8,079",,"$90,661","$45,406","$129,605",16.7,8.9,17.8,6.07,,,-3.8,86,10.4,6
+78,Liberty Mutual Insurance Group,Insurance: Property and Casualty (Stock),www.libertymutual.com,Boston,MA,2116,"45,000",,"$48,200",71,10.1,"$3,068",304.7,"$156,043","$27,816",,6.4,2,11,,,,,,,
+79,Progressive,Insurance: Property and Casualty (Stock),www.progressive.com,Mayfield Village,OH,44143,"49,077",PGR,"$47,702",74,11.8,"$3,351",-41.3,"$71,132","$18,232","$66,670",7,4.7,18.4,5.66,-41.4,26.3,13.5,10.8,28.1,22.5
+80,Nationwide,Insurance: Property and Casualty (Mutual),www.nationwide.com,Columbus,OH,43215,"24,134",,"$47,376",76,13,"$1,617",,"$278,412","$18,022",,3.4,0.6,9,,,,,,,
+81,Tyson Foods,Food Production,www.tysonfoods.com,Springdale,AR,72762,"137,000",TSN,"$47,049",73,8.9,"$3,047",47.8,"$36,309","$17,723","$32,488",6.5,8.4,17.2,8.34,47.9,13,15.5,38.4,9.4,17.3
+82,Bristol-Myers Squibb,Pharmaceuticals,www.bms.com,New York,NY,10016,"32,200",BMY,"$46,385",75,9.1,"$6,994",,"$109,314","$35,946","$155,204",15.1,6.4,19.5,3.12,,3.3,3.7,3.7,4.4,9.1
+83,Nike,Apparel,www.nike.com,Beaverton,OR,97005,"73,300",NKE,"$44,538",85,19.1,"$5,727",125.6,"$37,740","$12,767","$212,779",12.9,15.2,44.9,3.56,122.5,10.5,12.5,18.7,28.2,22.7
+84,Deere,Construction and Farm Machinery,www.deere.com,Moline,IL,61265,"75,550",DE,"$44,024",88,23.9,"$5,963",116.8,"$84,114","$18,431","$127,457",13.5,7.1,32.4,18.99,118.5,31.6,11.1,28.7,29.3,18.5
+85,American Express,Diversified Financials,www.americanexpress.com,New York,NY,10285,"64,000",AXP,"$43,663",83,14.3,"$8,060",157.1,"$188,548","$22,177","$141,613",18.5,4.3,36.3,10.02,165.8,12.1,9.3,36.8,18.8,14.8
+86,Abbott Laboratories,Medical Products and Equipment,www.abbott.com,Abbott Park,IL,60064,"113,000",ABT,"$43,075",89,24.5,"$7,071",57.3,"$75,196","$35,802","$208,726",16.4,9.4,19.8,3.94,57.6,33.2,2.7,30.4,31.9,20.4
+87,StoneX Group,Diversified Financials,www.stonex.com,New York,NY,10169,"3,242",SNEX,"$42,534",58,-21.4,$116,-31.4,"$18,840",$904,"$1,494",0.3,0.6,12.9,5.74,-33.3,14.6,12.1,5.8,9.1,10
+88,Plains GP Holdings,Pipelines,www.plains.com,Houston,TX,77002,"4,100",PAGP,"$42,078",127,80.7,$60,,"$29,978","$1,533","$2,243",0.1,0.2,3.9,0.31,,-19.9,,28.8,-16.2,
+89,Enterprise Products Partners,Pipelines,www.enterpriseproducts.com,Houston,TX,77002,"6,911",EPD,"$40,807",105,50,"$4,638",22.8,"$67,526","$25,378","$56,172",11.4,6.9,18.3,2.1,22.8,11.8,5.8,21.3,3,5.6
+90,TIAA,"Insurance: Life, Health (Mutual)",www.tiaa.org,New York,NY,10017,"15,065",,"$40,526",79,-2.6,"$4,061",627.6,"$698,191","$42,973",,10,0.6,9.4,,,,,,,
+91,Oracle,Computer Software,www.oracle.com,Austin,TX,78741,"132,000",ORCL,"$40,479",80,3.6,"$13,746",35.6,"$131,107","$5,238","$220,737",34,10.5,262.4,4.55,47.7,17.1,10.5,36.9,19.7,14.6
+92,Thermo Fisher Scientific,"Scientific, Photographic and Control Equipment",www.thermofisher.com,Waltham,MA,2451,"129,000",TMO,"$39,211",95,21.7,"$7,725",21.2,"$95,123","$40,793","$231,057",19.7,8.1,18.9,19.46,21.9,30.8,18.9,43.5,36.8,31.5
+93,Coca-Cola,Beverages,www.coca-colacompany.com,Atlanta,GA,30313,"79,000",KO,"$38,655",93,17.1,"$9,771",26.1,"$94,354","$22,999","$268,770",25.3,10.4,42.5,2.25,25.7,8.6,2,11.3,11,8.7
+94,General Dynamics,Aerospace and Defense,www.gd.com,Reston,VA,20190,"103,100",GD,"$38,469",84,1.4,"$3,257",2.8,"$50,073","$17,641","$67,081",8.5,6.5,18.5,11.55,5,3.9,5.3,43.6,6.2,14.7
+95,CHS,Food Production,www.chsinc.com,Inver Grove Heights,MN,55077,"9,941",,"$38,448",103,35.4,$554,31.1,"$17,576","$9,009",,1.4,3.2,6.1,,,,,,,
+96,United Services Automobile Assn.,Insurance: Property and Casualty (Stock),www.usaa.com,San Antonio,TX,78288,"37,335",,"$37,470",87,3.2,"$3,300",-15.5,"$210,677","$39,997",,8.8,1.6,8.3,,,,,,,
+97,Northwestern Mutual,"Insurance: Life, Health (Mutual)",www.northwesternmutual.com,Milwaukee,WI,53202,"7,585",,"$36,751",90,8.8,$978,130.1,"$334,654","$29,283",,2.7,0.3,3.3,,,,,,,
+98,Nucor,Metals,www.nucor.com,Charlotte,NC,28211,"28,800",NUE,"$36,484",149,81.2,"$6,828",846.3,"$25,823","$14,016","$39,954",18.7,26.4,48.7,23.16,881.4,56.3,25.2,118.6,17,14.4
+99,Exelon,Utilities: Gas and Electric,www.exeloncorp.com,Chicago,IL,60603,"31,518",EXC,"$36,347",92,10,"$1,706",-13.1,"$133,013","$34,393","$46,684",4.7,1.3,5,1.74,-13.4,7.4,-7.4,41.2,14,7
+100,Massachusetts Mutual Life Insurance,"Insurance: Life, Health (Mutual)",www.massmutual.com,Springfield,MA,1111,"10,052",,"$35,900",123,51.7,$319,,"$383,292","$28,896",,0.9,0.1,1.1,,,,,,,
+101,Northrop Grumman,Aerospace and Defense,www.northropgrumman.com,Falls Church,VA,22042,"88,000",NOC,"$35,667",86,-3.1,"$7,005",119.7,"$42,579","$12,926","$69,812",19.6,16.5,54.2,43.54,128.8,29,19.2,29.3,12.5,23.2
+102,3M,Chemicals,www.3m.com,St. Paul,MN,55144,"95,000",MMM,"$35,355",96,9.9,"$5,921",10,"$47,072","$15,046","$84,738",16.7,12.6,39.4,10.12,9.4,4.4,5.4,4.9,2.9,11.1
+103,Travelers,Insurance: Property and Casualty (Stock),www.travelers.com,New York,NY,10017,"30,492",TRV,"$34,816",98,8.9,"$3,662",35.8,"$120,466","$28,887","$44,129",10.5,3,12.7,14.49,37.7,7.1,15.7,14,7.6,12.9
+104,Arrow Electronics,Wholesalers: Electronics and Office Equipment,www.arrow.com,Centennial,CO,80112,"20,700",ARW,"$34,477",102,20.2,"$1,108",89.6,"$19,536","$5,282","$7,951",3.2,5.7,21,15.1,103.2,21.6,11.3,38,13.5,13.6
+105,Honeywell International,"Electronics, Electrical Equip.",www.honeywell.com,Charlotte,NC,28202,"99,000",HON,"$34,392",94,5.4,"$5,542",16,"$64,470","$18,569","$133,381",16.1,8.6,29.8,7.91,17.7,5,11.7,-0.3,15.7,17.3
+106,Dollar General,Specialty Retailers: Other,www.dollargeneral.com,Goodlettsville,TN,37072,"163,000",DG,"$34,220",91,1.4,"$2,399",-9.6,"$26,327","$6,262","$50,953",7,9.1,38.3,10.17,-4.2,18.1,16.4,13,27.3,19.9
+107,Qualcomm,Semiconductors and Other Electronic Components,www.qualcomm.com,San Diego,CA,92121,"45,000",QCOM,"$33,566",124,42.6,"$9,043",74,"$41,240","$9,950","$172,228",26.9,21.9,90.9,7.87,74.1,15.6,12.1,22.3,26.9,16.1
+108,Capital One Financial,Commercial Banks,www.capitalone.com,McLean,VA,22102,"50,767",COF,"$32,033",99,1.2,"$12,390",356.5,"$432,381","$61,029","$53,260",38.7,2.9,20.3,26.94,420.1,31.4,14.8,49.3,12.6,14.9
+109,TD Synnex,Wholesalers: Electronics and Office Equipment,www.tdsynnex.com,Fremont,CA,94538,"27,000",SNX,"$31,614",117,28.1,$395,-25.3,"$27,666","$7,906","$9,854",1.2,1.4,5,6.24,-38.9,1.2,4.3,41.5,15.2,23.5
+110,Philip Morris International,Tobacco,www.pmi.com,New York,NY,10017,"69,600",PM,"$31,405",101,9.4,"$9,109",13.1,"$41,290","-$10,106","$145,615",29,22.1,,5.83,13,5.4,1.9,20.9,6.1,6.8
+111,World Fuel Services,Energy,www.wfscorp.com,Miami,FL,33178,"4,414",INT,"$31,337",147,53.9,$74,-32.8,"$5,942","$1,913","$1,716",0.2,1.2,3.9,1.16,-32.2,-8.5,-8.1,-13.9,-9.4,-3.8
+112,Performance Food Group,Wholesalers: Food and Grocery,www.pfgc.com,Richmond,VA,23238,"22,885",PFGC,"$30,399",114,21.2,$41,,"$7,846","$2,106","$7,881",0.1,0.5,1.9,0.3,,-15.6,,-3.6,13.8,
+113,Delta Air Lines,Airlines,www.delta.com,Atlanta,GA,30354,"83,000",DAL,"$29,899",178,74.9,$280,,"$72,459","$3,887","$25,322",0.9,0.4,7.2,0.44,,-40.3,-8,-2.8,-2.9,18.5
+114,American Airlines Group,Airlines,www.aa.com,Fort Worth,TX,76155,"123,400",AAL,"$29,882",174,72.4,"-$1,993",,"$66,467","-$7,340","$11,847",-6.7,-3,,-3.09,,,,13.9,-16.8,
+115,Netflix,Entertainment,www.netflix.com,Los Gatos,CA,95032,"11,300",NFLX,"$29,698",115,18.8,"$5,116",85.3,"$44,585","$15,849","$166,304",17.2,11.5,32.3,11.24,84.9,92.1,34.2,11.4,37.2,50.8
+116,Paramount Global,Entertainment,www.paramount.com,New York,NY,10036,"25,115",PARA,"$29,579",109,13,"$4,543",87.6,"$58,620","$22,402","$24,629",15.4,7.7,20.3,6.94,77,19.8,13.7,-17.1,-12,2.7
+117,US Foods Holding,Wholesalers: Food and Grocery,www.usfoods.com,Rosemont,IL,60018,"28,000",USFD,"$29,487",128,28.8,$164,,"$12,521","$4,269","$8,392",0.6,1.3,3.8,0.54,,-12.1,,4.6,4.9,
+118,Danaher,Medical Products and Equipment,www.danaher.com,Washington,DC,20037,"79,000",DHR,"$29,453",130,32.2,"$6,433",76.4,"$83,184","$45,167","$209,993",21.8,7.7,14.2,8.61,76.1,18.7,10.7,48.5,34.1,25.3
+119,Jabil,Semiconductors and Other Electronic Components,www.jabil.com,St. Petersburg,FL,33716,"238,000",JBL,"$29,285",104,7.4,$696,"1,191.00","$16,654","$2,136","$8,857",2.4,4.2,32.6,4.58,"1,208.60",28.3,10.2,66.4,25.6,15
+120,Starbucks,Food Services,www.starbucks.com,Seattle,WA,98134,"383,000",SBUX,"$29,061",125,23.6,"$4,199",352.4,"$31,393","-$5,321","$104,643",14.5,13.4,,3.54,348.1,13.3,15.9,11.2,18.3,19.6
+121,Mondelez International,Food Consumer Products,www.mondelezinternational.com,Chicago,IL,60607,"79,000",MDLZ,"$28,720",108,8,"$4,300",21,"$67,092","$28,269","$87,159",15,6.4,15.2,3.04,23.1,23.7,4.3,15.9,10.7,12.7
+122,Eli Lilly,Pharmaceuticals,www.lilly.com,Indianapolis,IN,46285,"35,238",LLY,"$28,318",118,15.4,"$5,582",-9.9,"$48,806","$8,979","$272,724",19.7,11.4,62.2,6.12,-9.9,18.9,4.6,66,33.1,24.2
+123,Hewlett Packard Enterprise,"Computers, Office Equipment",www.hpe.com,Houston,TX,77070,"60,400",HPE,"$27,784",106,3,"$3,427",,"$57,699","$19,971","$21,725",12.3,5.9,17.2,2.58,,7.2,,37.7,6.3,
+124,D.R. Horton,Homebuilders,www.drhorton.com,Arlington,TX,76011,"11,788",DHI,"$27,774",148,36.7,"$4,176",75.9,"$24,016","$14,887","$26,403",15,17.4,28.1,11.41,78,37,47.8,58.8,33.3,25.3
+125,Molina Healthcare,Health Care: Insurance and Managed Care,www.molinahealthcare.com,Long Beach,CA,90802,"14,000",MOH,"$27,771",155,43,$659,-2.1,"$12,209","$2,630","$19,573",2.4,5.4,25.1,11.25,0.2,65,38,49.6,42.4,30.4
+126,CBRE Group,Real Estate,www.cbre.com,Dallas,TX,75201,"105,000",CBRE,"$27,746",122,16.5,"$1,837",144.2,"$22,074","$8,528","$30,414",6.6,8.3,21.5,5.41,143.7,26.2,22,73,28.1,21.7
+127,Micron Technology,Semiconductors and Other Electronic Components,www.micron.com,Boise,ID,83716,"43,000",MU,"$27,705",135,29.3,"$5,861",118.1,"$58,849","$43,933","$86,977",21.2,10,13.3,5.14,116.9,,40.6,24.1,33.6,31
+128,Broadcom,Semiconductors and Other Electronic Components,www.broadcom.com,San Jose,CA,95131,"20,000",AVGO,"$27,450",121,14.9,"$6,736",127.6,"$75,570","$24,962","$257,087",24.5,8.9,27,15,137,,21.2,56.4,34.6,40.2
+129,Gilead Sciences,Pharmaceuticals,www.gilead.com,Foster City,CA,94404,"14,400",GILD,"$27,305",116,10.6,"$6,225","4,961.00","$67,952","$21,069","$74,657",22.8,9.2,29.5,4.93,"4,830.00",-13.1,10.8,29.8,4,16
+130,PBF Energy,Petroleum Refining,www.pbfenergy.com,Parsippany,NJ,7054,"3,418",PBF,"$27,253",203,80.3,$231,,"$11,641","$1,926","$2,933",0.8,2,12,1.9,,1.8,,82.7,-11.5,
+131,Lennar,Homebuilders,www.lennar.com,Miami,FL,33172,"10,753",LEN,"$27,131",129,20.6,"$4,430",79.7,"$33,208","$20,816","$23,413",16.3,13.3,21.3,14.27,81.8,29.9,40.7,53.9,23.2,20.3
+132,United Natural Foods,Wholesalers: Food and Grocery,www.unfi.com,Providence,RI,2908,"28,300",UNFI,"$26,992",107,0.9,$149,,"$7,525","$1,515","$2,409",0.6,2,9.8,2.48,,-0.2,4.5,207.3,0.6,2.1
+133,NRG Energy,Energy,www.nrg.com,Houston,TX,77002,"6,635",NRG,"$26,989",333,196.8,"$2,187",328.8,"$23,182","$3,600","$9,289",8.1,9.4,60.8,8.93,331.4,,27.6,18.7,30.7,11
+134,Nvidia,Semiconductors and Other Electronic Components,www.nvidia.com,Santa Clara,CA,95051,"22,473",NVDA,"$26,914",184,61.4,"$9,752",125.1,"$44,187","$26,612","$684,879",36.2,22.1,36.6,3.85,123.2,43.1,32.3,125.5,62,57.2
+135,Occidental Petroleum,"Mining, Crude-Oil Production",www.oxy.com,Houston,TX,77046,"11,678",OXY,"$26,772",183,60.5,"$2,322",,"$75,036","$20,327","$53,160",8.7,3.1,11.4,1.58,,,-15.3,67.7,-13.6,-7.7
+136,Salesforce,Computer Software,www.salesforce.com,San Francisco,CA,94105,"73,541",CRM,"$26,492",137,24.7,"$1,444",-64.5,"$95,209","$58,131","$210,197",5.5,1.5,2.5,1.48,-66.2,41.6,,14.2,30,25.9
+137,Dollar Tree,Specialty Retailers: Other,www.dollartree.com,Chesapeake,VA,23320,"136,226",DLTR,"$26,321",111,3.2,"$1,328",-1,"$21,722","$7,719","$36,051",5,6.1,17.2,5.8,2.7,8.9,11.2,30.1,12.7,13
+138,KKR,Securities,www.kkr.com,New York,NY,10001,"3,238",KKR,"$26,141",316,171.5,"$4,667",133,"$264,285","$17,582","$51,543",17.9,1.8,26.5,7.31,116.9,65.4,93.4,85.8,40.1,24.8
+139,Kraft Heinz,Food Consumer Products,www.kraftheinzcompany.com,Chicago,IL,60601,"36,000",KHC,"$26,042",110,-0.5,"$1,012",184.3,"$93,394","$49,298","$48,249",3.9,1.1,2.1,0.82,182.8,-21.8,,8,-12.5,
+140,Amgen,Pharmaceuticals,www.amgen.com,Thousand Oaks,CA,91320,"24,200",AMGN,"$25,979",112,2.2,"$5,893",-18.9,"$61,165","$6,700","$134,701",22.7,9.6,88,10.28,-16.5,0.1,9.8,1,12.2,16.2
+141,AutoNation,"Automotive Retailing, Services",www.autonation.com,Fort Lauderdale,FL,33301,"22,200",AN,"$25,844",145,26.7,"$1,373",259.8,"$8,944","$2,377","$6,111",5.3,15.4,57.8,18.31,325.8,34.6,25.4,67.4,19.2,12.2
+142,Penske Automotive Group,"Automotive Retailing, Services",www.penskeautomotive.com,Bloomfield Hills,MI,48302,"24,797",PAG,"$25,555",143,25,"$1,188",118.5,"$13,465","$4,070","$7,197",4.6,8.8,29.2,14.89,120.9,30.1,22.6,84.4,18.7,21.4
+143,PayPal Holdings,Financial Data Services,www.paypal.com,San Jose,CA,95131,"30,900",PYPL,"$25,371",134,18.3,"$4,169",-0.8,"$75,803","$21,727","$134,733",16.4,5.5,19.2,3.52,-0.6,25.1,,-19.5,36.7,
+144,Macy's,General Merchandisers,www.macysinc.com,New York,NY,10001,"88,857",M,"$25,292",164,39.8,"$1,430",,"$17,590","$3,621","$7,123",5.7,8.1,39.5,4.55,,18,4.5,134.2,-0.6,2
+145,Duke Energy,Utilities: Gas and Electric,www.duke-energy.com,Charlotte,NC,28202,"27,605",DUK,"$24,677",126,5.2,"$3,908",183.8,"$169,587","$49,296","$85,967",15.8,2.3,7.9,4.94,187.2,9.7,2.6,19.1,10.8,9.4
+146,United Airlines Holdings,Airlines,www.united.com,Chicago,IL,60606,"84,100",UAL,"$24,634",200,60.4,"-$1,964",,"$68,175","$5,029","$15,050",-8,-2.9,-39.1,-6.1,,,,1.2,-9.7,8.8
+147,Visa,Financial Data Services,www.visa.com,San Francisco,CA,94105,"21,500",V,"$24,105",133,10.3,"$12,311",13.3,"$82,896","$37,589","$480,023",51.1,14.9,32.8,,,,,-0.3,23.5,24.8
+148,Rite Aid,Food and Drug Stores,www.riteaid.com,Camp Hill,PA,17011,"50,000",RAD,"$24,043",132,9.6,-$91,,"$9,335",$615,$488,-0.4,-1,-14.8,-1.69,,,,-7.2,-38.3,-5.3
+149,Cummins,Industrial Machinery,www.cummins.com,Columbus,IN,47201,"59,900",CMI,"$24,021",150,21.3,"$2,131",19.1,"$23,710","$8,474","$29,141",8.9,9,25.1,14.61,21.6,12.2,4.3,-1.7,12.9,12.4
+150,U.S. Bancorp,Commercial Banks,www.usbank.com,Minneapolis,MN,55402,"68,796",USB,"$23,714",113,-6,"$7,963",60.6,"$573,284","$54,918","$78,930",33.6,1.4,14.5,5.1,66.7,9.5,7.6,24.3,4.9,10.5
+151,Paccar,Motor Vehicles and Parts,www.paccar.com,Bellevue,WA,98004,"28,500",PCAR,"$23,522",159,25.6,"$1,852",42.6,"$29,302","$11,437","$30,620",7.9,6.3,16.2,5.32,42.2,29.2,6.4,4.7,10.5,12.8
+152,McDonald's,Food Services,www.investor.mcdonalds.com,Chicago,IL,60607,"200,000",MCD,"$23,223",157,20.9,"$7,545",59.5,"$53,854","-$4,601","$183,874",32.5,14,,10.04,59.1,13,6.7,27.7,20,13.5
+153,Southern,Utilities: Gas and Electric,www.southerncompany.com,Atlanta,GA,30308,"27,164",SO,"$23,113",146,13.4,"$2,393",-23.3,"$127,534","$27,874","$76,877",10.4,1.9,8.6,2.24,-23.5,-2.6,-1.3,16.3,11.8,8.8
+154,C.H. Robinson Worldwide,Transportation and Logistics,www.chrobinson.com,Eden Prairie,MN,55347,"16,877",CHRW,"$23,102",191,42.5,$844,66.7,"$7,028","$2,022","$13,856",3.7,12,41.8,6.31,69.6,11.9,9.2,17.2,10.4,6.9
+155,Truist Financial,Commercial Banks,www.truist.com,Charlotte,NC,28202,"51,462",TFC,"$23,064",119,-5.6,"$6,440",43.7,"$541,241","$69,271","$75,354",27.9,1.2,9.3,4.47,45.1,10,9.3,26.1,8,12.2
+156,Applied Materials,Semiconductors and Other Electronic Components,www.appliedmaterials.com,Santa Clara,CA,95054,"27,000",AMAT,"$23,063",176,34.1,"$5,888",62.7,"$25,825","$12,247","$116,431",25.5,22.8,48.1,6.4,63.3,33,16,83.6,39.1,33.1
+157,Freeport-McMoRan,"Mining, Crude-Oil Production",www.fcx.com,Phoenix,AZ,85004,"24,700",FCX,"$22,845",215,60.9,"$4,306",618.9,"$48,022","$13,980","$72,361",18.8,9,30.8,2.9,607.3,,-4.9,61.3,26.9,3.5
+158,Lithia Motors,"Automotive Retailing, Services",www.lithiainvestorrelations.com,Medford,OR,97501,"21,150",LAD,"$22,832",231,74,"$1,060",125.4,"$11,147","$4,626","$8,910",4.6,9.5,22.9,36.54,87.1,36.5,32.4,1.9,26.3,31
+159,Blackstone,Diversified Financials,www.blackstone.com,New York,NY,10154,"3,795",BX,"$22,577",454,270,"$5,857",460.3,"$41,196","$9,423","$88,907",25.9,14.2,62.2,8.13,442,39.1,,107.1,44.1,32.2
+160,Hartford Financial Services Group,Insurance: Property and Casualty (Stock),www.thehartford.com,Hartford,CT,6155,"18,100",HIG,"$22,390",142,9.1,"$2,365",36.2,"$76,578","$17,843","$23,816",10.6,3.1,13.3,6.62,39.1,23.9,17.7,44.2,10.2,18
+161,Aflac,"Insurance: Life, Health (Stock)",www.aflac.com,Columbus,GA,31999,"12,447",AFL,"$22,106",131,-0.2,"$4,325",-9.5,"$157,542","$33,253","$41,813",19.6,2.7,13,6.39,-4.2,14.8,11.8,34.6,13.5,13.2
+162,Whirlpool,"Electronics, Electrical Equip.",www.whirlpoolcorp.com,Benton Harbor,MI,49022,"69,000",WHR,"$21,985",154,13,"$1,783",64.9,"$20,285","$4,846","$10,101",8.1,8.8,36.8,28.36,66.1,19.8,19,33.2,8.4,20.4
+163,Union Pacific,Railroads,www.up.com,Omaha,NE,68179,"32,124",UNP,"$21,804",153,11.6,"$6,523",21.9,"$63,525","$14,161","$171,682",29.9,10.3,46.1,9.95,26.3,14.4,11.5,23.4,22,19.4
+164,International Paper,"Packaging, Containers",www.internationalpaper.com,Memphis,TN,38197,"38,200",IP,"$21,780",141,5.8,"$1,752",263.5,"$25,243","$9,082","$17,301",8,6.9,19.3,4.47,266.4,15.4,3.8,3.5,2.8,9.4
+165,Altria Group,Tobacco,www.altria.com,Richmond,VA,23230,"6,000",MO,"$21,111",138,1.3,"$2,475",-44.6,"$39,523","-$1,606","$94,952",11.7,6.3,,1.34,-44.2,-28.7,-2,24.6,-1.1,10.5
+166,CDW,Information Technology Services,www.cdw.com,Lincolnshire,IL,60069,"13,900",CDW,"$20,821",161,12.7,$989,25.4,"$13,199",$706,"$24,140",4.7,7.5,140.1,7.04,29.2,22.4,,56.9,33,
+167,ManpowerGroup,Temporary Help,www.manpowergroup.com,Milwaukee,WI,53212,"30,000",MAN,"$20,724",165,15.1,$382,"1,506.70","$9,829","$2,522","$5,026",1.8,3.9,15.2,6.91,"1,585.40",2,8.6,10.5,4.2,12.8
+168,PG&E,Utilities: Gas and Electric,www.pgecorp.com,San Francisco,CA,94105,"26,000",PCG,"$20,642",160,11.8,-$102,,"$103,327","$20,971","$29,434",-0.5,-0.1,-0.5,-0.05,,,,-2.6,-27.1,-9.5
+169,Carrier Global,Industrial Machinery,www.corporate.carrier.com,Palm Beach Gardens,FL,33418,"58,000",CARR,"$20,613",171,18.1,"$1,664",-16,"$26,172","$6,767","$39,127",8.1,6.4,24.6,1.87,-16.9,,,45.3,,
+170,Baker Hughes,"Oil and Gas Equipment, Services",www.bakerhughes.com,Houston,TX,77073,"54,000",BKR,"$20,502",140,-1,-$219,,"$35,308","$14,830","$37,410",-1.1,-0.6,-1.5,-0.27,,,,19,-8.8,-1.1
+171,Cleveland-Cliffs,Metals,www.clevelandcliffs.com,Cleveland,OH,44114,"26,000",CLF,"$20,444",,281.8,"$2,988",,"$18,975","$5,490","$16,891",14.6,15.7,54.4,5.36,,43.9,-7.3,49.5,22.2,-8.3
+172,United States Steel,Metals,www.ussteel.com,Pittsburgh,PA,15219,"24,540",X,"$20,275",310,108.1,"$4,174",,"$17,816","$9,010","$9,832",20.6,23.4,46.3,14.88,,,,42.5,-5.7,-0.2
+173,Becton Dickinson,Medical Products and Equipment,www.bd.com,Franklin Lakes,NJ,7417,"75,000",BDX,"$20,248",177,18.3,"$2,092",139.4,"$53,866","$23,675","$75,749",10.3,3.9,8.8,6.85,152.8,8.8,2,1.9,10.2,14.8
+174,CarMax,"Automotive Retailing, Services",www.carmax.com,Richmond,VA,23238,"26,889",KMX,"$20,092",136,-6.2,$747,-15.9,"$21,542","$4,365","$15,599",3.7,3.5,17.1,4.52,-15.2,8.3,10.6,37.9,15.1,15.6
+175,Sherwin-Williams,Chemicals,www.sherwin-williams.com,Cleveland,OH,44115,"61,626",SHW,"$19,945",162,8.6,"$1,864",-8.2,"$20,667","$2,437","$65,038",9.3,9,76.5,6.98,-5.2,11.8,17.6,44.9,32.6,29.3
+176,Builders FirstSource,"Building Materials, Glass",www.bldr.com,Dallas,TX,75201,"28,000",BLDR,"$19,894",350,132.4,"$1,725",450.3,"$10,714","$4,803","$11,409",8.7,16.1,35.9,8.48,218.8,46.2,,110,50.9,45.3
+177,Marsh & McLennan,Diversified Financials,www.marshmclennan.com,New York,NY,10036,"83,000",MMC,"$19,820",175,15.1,"$3,143",55.9,"$34,388","$11,009","$85,681",15.9,9.1,28.5,6.13,55.6,12.6,13.1,50.7,22.9,21
+178,PNC Financial Services Group,Commercial Banks,www.pnc.com,Pittsburgh,PA,15222,"58,547",PNC,"$19,698",120,-18.1,"$5,674",-24.5,"$557,191","$55,695","$77,203",28.8,1,10.2,12.7,-25.1,11.7,8.5,38.1,14.5,16.2
+179,Lumen Technologies,Telecommunications,www.lumen.com,Monroe,LA,71203,"36,000",LUMN,"$19,687",139,-4.9,"$2,033",,"$57,993","$11,840","$11,533",10.3,3.5,17.2,1.91,,10.5,6,38.8,-3.3,-2.6
+180,Avnet,Wholesalers: Electronics and Office Equipment,www.avnet.com,Phoenix,AZ,85034,"14,500",AVT,"$19,535",168,10.8,$193,,"$8,925","$4,084","$4,017",1,2.2,4.7,1.93,,-12.7,-7.8,20.3,-0.6,4.6
+181,Tenet Healthcare,Health Care: Medical Facilities,www.tenethealth.com,Dallas,TX,75254,"88,968",THC,"$19,485",167,10.5,$914,129.1,"$27,579","$1,028","$9,388",4.7,3.3,88.9,8.42,124.5,,33.2,104.6,40.7,14.8
+182,Kimberly-Clark,Household and Personal Products,www.kimberly-clark.com,Irving,TX,75038,"45,000",KMB,"$19,440",158,1.6,"$1,814",-22.9,"$17,837",$514,"$41,496",9.3,10.2,352.9,5.35,-22.1,-2.2,3,9.6,8.1,10.8
+183,Kohl's,General Merchandisers,www.kohls.com,Menomonee Falls,WI,53051,"67,000",KSS,"$19,433",195,21.8,$938,,"$15,054","$4,661","$7,775",4.8,6.2,20.1,6.32,,15.2,3.9,23.6,4.3,3.8
+184,BlackRock,Securities,www.blackrock.com,New York,NY,10055,"18,400",BLK,"$19,374",192,19.6,"$5,901",19.6,"$152,648","$37,693","$116,186",30.5,3.9,15.7,38.22,20,15,11.9,29.4,22.2,20.9
+185,Jones Lang LaSalle,Real Estate,www.jll.com,Chicago,IL,60601,"98,200",JLL,"$19,367",186,16.7,$962,138.9,"$15,505","$6,185","$11,946",5,6.2,15.5,18.47,139.9,21.5,17.4,81.5,22.1,16.4
+186,Lear,Motor Vehicles and Parts,www.lear.com,Southfield,MI,48033,"160,100",LEA,"$19,263",179,13,$374,135.9,"$13,352","$4,643","$8,513",1.9,2.8,8.1,6.19,136.3,-14.2,2,16.3,8.3,18
+187,Lincoln National,"Insurance: Life, Health (Stock)",www.lfg.com,Radnor,PA,19087,"10,848",LNC,"$19,230",172,10.3,"$1,405",181.6,"$387,301","$20,272","$11,272",7.3,0.4,6.9,7.43,190.2,8.1,23.2,39.5,3.2,15.8
+188,Charles Schwab,Securities,www.aboutschwab.com,Westlake,TX,76262,"33,400",SCHW,"$18,996",251,56.9,"$5,855",77.5,"$667,270","$56,261","$159,676",30.8,0.9,10.4,2.83,33.5,16.7,15,60.2,17.8,23.7
+189,Ross Stores,Specialty Retailers: Apparel,www.rossstores.com,Dublin,CA,94568,"100,000",ROST,"$18,916",242,50.9,"$1,723","1,917.50","$13,640","$4,060","$31,742",9.1,12.6,42.4,4.87,"1,929.20",11.5,13,-6,12.7,18.1
+190,Mastercard,Financial Data Services,www.mastercard.com,Purchase,NY,10577,"24,000",MA,"$18,884",201,23.4,"$8,687",35.5,"$37,669","$7,312","$349,331",46,23.1,118.8,8.76,37.5,18.9,19.4,1.2,29,26.1
+191,Genuine Parts,Wholesalers: Diversified,www.genpt.com,Atlanta,GA,30339,"52,000",GPC,"$18,871",173,8.5,$899,,"$14,352","$3,491","$17,888",4.8,6.3,25.7,6.23,,6.3,5.7,43.6,11.3,11.9
+192,WestRock,"Packaging, Containers",www.westrock.com,Atlanta,GA,30328,"49,900",WRK,"$18,746",170,6.6,$838,,"$29,254","$11,670","$12,379",4.5,2.9,7.2,3.13,,,8.5,3.8,0.5,8.3
+193,EOG Resources,"Mining, Crude-Oil Production",www.eogresources.com,Houston,TX,77002,"2,800",EOG,"$18,642",285,69,"$4,664",,"$38,236","$22,180","$69,796",25,12.2,21,7.99,,,14.6,88.9,-0.3,7.7
+194,Cognizant Technology Solutions,Information Technology Services,www.cognizant.com,Teaneck,NJ,7666,"330,600",CTSH,"$18,507",185,11.1,"$2,137",53.5,"$17,852","$11,991","$47,035",11.5,12,17.8,4.05,57.6,9.7,11,9.7,10.9,11.3
+195,Moderna,Pharmaceuticals,www.modernatx.com,Cambridge,MA,2139,"2,700",MRNA,"$18,471",,"2,199.10","$12,202",,"$24,669","$14,145","$69,424",66.1,49.5,86.3,28.29,,,,143.1,,
+196,Steel Dynamics,Metals,www.steeldynamics.com,Fort Wayne,IN,46804,"10,640",STLD,"$18,409",319,91.7,"$3,214",483.5,"$12,531","$6,305","$15,812",17.5,25.6,51,15.56,500.8,58.4,29,71.7,14.4,19.8
+197,HF Sinclair,Petroleum Refining,www.hfsinclair.com,Dallas,TX,75201,"4,208",DINO,"$18,389",279,64.4,$558,,"$12,917","$5,688","$8,896",3,4.3,9.8,3.39,,,-6.2,27.9,3,8.2
+198,Texas Instruments,Semiconductors and Other Electronic Components,www.ti.com,Dallas,TX,75243,"31,000",TXN,"$18,344",210,26.9,"$7,769",38.9,"$24,676","$13,333","$169,330",42.4,31.5,58.3,8.26,38.4,18.9,16,17.5,24.1,23.7
+199,Emerson Electric,Industrial Machinery,www.emerson.com,St. Louis,MO,63136,"86,700",EMR,"$18,236",181,8.6,"$2,303",17.2,"$24,715","$9,883","$58,242",12.6,9.3,23.3,3.82,17.9,8.7,1.6,18.2,13.9,10.4
+200,WESCO International,Wholesalers: Diversified,www.wesco.com,Pittsburgh,PA,15219,"18,000",WCC,"$18,218",245,47.8,$465,362.8,"$12,618","$3,783","$6,599",2.6,3.7,12.3,7.84,419.2,30.1,7.1,67.6,14.6,9.5
+201,General Mills,Food Consumer Products,www.generalmills.com,Minneapolis,MN,55426,"35,000",GIS,"$18,127",169,2.8,"$2,340",7.3,"$31,842","$9,470","$40,782",12.9,7.3,24.7,3.78,6.2,6.4,3.4,18.5,5.5,8.8
+202,Tenneco,Motor Vehicles and Parts,www.tenneco.com,Lake Forest,IL,60045,"71,000",TEN,"$18,035",199,17.3,$35,,"$11,622",$85,"$1,523",0.2,0.3,41.2,0.42,,-41.8,-16.5,6.6,-28.4,-8.9
+203,Waste Management,Waste Management,www.wm.com,Houston,TX,77002,"48,500",WM,"$17,931",202,17.8,"$1,816",21.4,"$29,097","$7,124","$65,803",10.1,6.2,25.5,4.29,21.9,10.1,7.7,43.8,21,20.9
+204,Viatris,Pharmaceuticals,www.viatris.com,Canonsburg,PA,15317,"37,000",VTRS,"$17,886",254,49.7,"-$1,269",,"$54,843","$20,493","$13,160",-7.1,-2.3,-6.2,-1.05,,,,-26.1,,
+205,DISH Network,Telecommunications,www.dish.com,Englewood,CO,80112,"14,500",DISH,"$17,881",197,15.4,"$2,411",36.8,"$48,002","$15,527","$16,743",13.5,5,15.5,3.79,25.5,4.4,1.1,0.3,-10.9,1.6
+206,L3Harris Technologies,Aerospace and Defense,www.l3harris.com,Melbourne,FL,32919,"47,000",LHX,"$17,814",163,-2.1,"$1,846",65,"$34,709","$19,213","$47,970",10.4,5.3,9.6,9.09,75.1,28.5,7,15,17.8,22.1
+207,DXC Technology,Information Technology Services,www.dxc.technology,Tysons,VA,22102,"134,000",DXC,"$17,729",152,-9.4,-$149,,"$22,038","$4,973","$7,977",-0.8,-0.7,-3,-0.59,,,,25,,
+208,Block,Financial Data Services,www.block.xyz,San Francisco,CA,94103,"8,521",SQ,"$17,661",323,86,$166,-22,"$13,926","$3,273","$78,656",0.9,1.2,5.1,0.33,-25,,,-25.8,64,
+209,Goodyear Tire & Rubber,Motor Vehicles and Parts,www.goodyear.com,Akron,OH,44316,"72,000",GT,"$17,478",246,41.9,$764,,"$21,402","$4,999","$4,029",4.4,3.6,15.3,2.89,,-9.4,8.7,95.4,-5.3,5.5
+210,Uber Technologies,Internet Services and Retailing,www.uber.com,San Francisco,CA,94158,"29,300",UBER,"$17,455",281,56.7,-$496,,"$38,774","$14,458","$69,753",-2.8,-1.3,-3.4,-0.29,,,,-17.8,,
+211,Colgate-Palmolive,Household and Personal Products,www.colgatepalmolive.com,New York,NY,10022,"33,800",CL,"$17,421",188,5.8,"$2,166",-19.6,"$15,040",$609,"$63,742",12.4,14.4,355.7,2.55,-18.8,-1.3,0.3,2.1,8,8.8
+212,Stanley Black & Decker,"Home Equipment, Furnishings",www.stanleyblackanddecker.com,New Britain,CT,6053,"71,300",SWK,"$17,253",209,18.7,"$1,689",36.9,"$28,180","$11,591","$22,843",9.8,6,14.6,10.16,36.2,9.3,9.9,7.3,12.5,13.1
+213,DuPont,Chemicals,www.dupont.com,Wilmington,DE,19805,"28,000",DD,"$17,160",144,-15.9,"$6,467",,"$45,707","$26,433","$37,740",37.7,14.1,24.5,11.89,,2.4,6.8,15.4,-0.1,8.9
+214,Stryker,Medical Products and Equipment,www.stryker.com,Kalamazoo,MI,49002,"46,000",SYK,"$17,108",212,19.2,"$1,994",24.7,"$34,631","$14,877","$100,978",11.7,5.8,13.4,5.21,24,3.7,4.2,10.2,18.7,19.9
+215,NextEra Energy,Utilities: Gas and Electric,www.nexteraenergy.com,Juno Beach,FL,33408,"15,000",NEE,"$17,069",166,-5.2,"$3,573",22.4,"$140,912","$37,202","$166,264",20.9,2.5,9.6,1.81,22.3,3,4.7,23.3,28.6,23.3
+216,Targa Resources,Pipelines,www.targaresources.com,Houston,TX,77002,"2,430",TRGP,"$16,950",364,105.2,$71,,"$15,208","$2,762","$17,244",0.4,0.5,2.6,-0.07,,,,100,4.5,8.2
+217,Western Digital,"Computers, Office Equipment",www.westerndigital.com,San Jose,CA,95119,"65,600",WDC,"$16,922",182,1.1,$821,,"$26,132","$10,721","$15,536",4.9,3.1,7.7,2.66,,21.6,-1.5,17.7,1.4,10.1
+218,PPG Industries,Chemicals,www.ppg.com,Pittsburgh,PA,15272,"49,300",PPG,"$16,802",220,21.5,"$1,439",35.9,"$21,351","$6,286","$30,952",8.6,6.7,22.9,6.01,35.1,12.9,5.8,21.3,14.6,17.1
+219,American Electric Power,Utilities: Gas and Electric,www.aep.com,Columbus,OH,43215,"16,688",AEP,"$16,792",204,12.6,"$2,488",13.1,"$87,669","$22,433","$50,339",14.8,2.8,11.1,4.96,12.2,32,2.1,10.7,10.8,12
+220,Gap,Specialty Retailers: Apparel,www.gapinc.com,San Francisco,CA,94105,"97,000",GPS,"$16,670",221,20.8,$256,,"$12,761","$2,722","$5,207",1.5,2,9.4,0.67,,-16.9,-8.1,-11.1,-1.9,2.2
+221,BJ's Wholesale Club,General Merchandisers,www.bjs.com,Westborough,MA,1581,"34,000",BJ,"$16,667",198,8,$427,1.3,"$5,669",$648,"$9,147",2.6,7.5,65.8,3.09,2,,,79.6,,
+222,Reinsurance Group of America,"Insurance: Life, Health (Stock)",www.rgare.com,Chesterfield,MO,63017,"3,500",RGA,"$16,658",207,14.1,$617,48.7,"$92,175","$13,014","$7,355",3.7,0.7,4.7,9.04,43.3,-3.5,1.1,-3.1,-0.9,9.6
+223,Kinder Morgan,Pipelines,www.kindermorgan.com,Houston,TX,77002,"10,529",KMI,"$16,610",262,42,"$1,784","1,399.20","$70,416","$30,823","$42,878",10.7,2.5,5.8,0.78,"1,460.00",25.6,,23.6,-0.4,-2.5
+224,Oneok,Pipelines,www.oneok.com,Tulsa,OK,74103,"2,847",OKE,"$16,540",351,93.6,"$1,500",144.7,"$23,622","$6,015","$31,516",9.1,6.3,24.9,3.35,135.9,15.1,7.1,64.2,7.3,10.5
+225,Expeditors International of Washington,Transportation and Logistics,www.expeditors.com,Seattle,WA,98104,"19,070",EXPD,"$16,524",299,72.4,"$1,416",103.3,"$7,610","$3,494","$17,269",8.6,18.6,40.5,8.27,103.2,28.5,16.5,42.5,21.9,14.1
+226,Advanced Micro Devices,Semiconductors and Other Electronic Components,www.amd.com,Santa Clara,CA,95054,"15,500",AMD,"$16,434",309,68.3,"$3,162",27,"$12,419","$7,497","$177,936",19.2,25.5,42.2,2.57,24.8,,14.6,56.9,66.2,38.9
+227,Fiserv,Financial Data Services,www.fiserv.com,Brookfield,WI,53045,"44,000",FISV,"$16,226",205,9.3,"$1,334",39.2,"$76,249","$30,952","$66,133",8.2,1.7,4.3,1.99,42.1,-0.8,9.3,-8.8,14.3,21.6
+228,Estée Lauder,Household and Personal Products,www.elcompanies.com,New York,NY,10153,"53,320",EL,"$16,215",213,13.4,"$2,870",319.6,"$21,971","$6,057","$97,672",17.7,13.1,47.4,7.79,318.8,21.4,16.2,40,38.4,22.1
+229,Bank of New York Mellon,Commercial Banks,www.bnymellon.com,New York,NY,10286,"49,100",BK,"$16,158",180,-4.6,"$3,759",3.9,"$444,438","$43,034","$40,057",23.3,0.8,8.7,4.14,8.1,5.6,7.4,40.4,6.7,13.7
+230,Laboratory Corp. of America,Health Care: Pharmacy and Other Services,www.labcorp.com,Burlington,NC,27215,"71,725",LH,"$16,121",218,15.3,"$2,377",52.8,"$20,385","$10,273","$24,626",14.7,11.7,23.1,24.39,53.6,28.3,16.9,54.4,19.6,13.8
+231,Regeneron Pharmaceuticals,Pharmaceuticals,www.regeneron.com,Tarrytown,NY,10591,"10,368",REGN,"$16,072",354,89.1,"$8,075",129.9,"$25,435","$18,769","$75,806",50.2,31.7,43,71.97,135.8,56.4,,30.7,11.5,27.5
+232,Land O'Lakes,Food Consumer Products,www.landolakesinc.com,Arden Hills,MN,55126,"9,000",,"$15,916",219,14.1,$287,8.5,"$9,560","$3,066",,1.8,3,9.4,,,,,,,
+233,Cheniere Energy,Pipelines,www.cheniere.com,Houston,TX,77002,"1,550",LNG,"$15,864",328,69.5,"-$2,343",,"$39,258","-$2,571","$35,272",-14.8,-6,,-9.25,,,,69.5,19.7,27.9
+234,Southwest Airlines,Airlines,www.southwest.com,Dallas,TX,75235,"55,093",LUV,"$15,790",336,74.5,$977,,"$36,320","$10,414","$27,129",6.2,2.7,9.4,1.61,,-14.6,21.5,-8.1,-2.2,18.4
+235,Adobe,Computer Software,www.adobe.com,San Jose,CA,95110,"25,988",ADBE,"$15,785",234,22.7,"$4,822",-8.3,"$27,241","$14,797","$215,281",30.5,17.7,32.6,10.02,-7.5,34,19.8,13.4,40.7,35
+236,Synchrony Financial,Diversified Financials,www.synchronyfinancial.com,Stamford,CT,6902,"18,000",SYF,"$15,752",187,-4.4,"$4,221",204.8,"$95,748","$13,655","$18,146",26.8,4.4,30.9,7.34,223.3,22.1,,36.2,7.6,
+237,Corteva,Food Production,www.corteva.com,Indianapolis,IN,46268,"21,000",CTVA,"$15,655",214,10.1,"$1,759",158.3,"$42,344","$25,384","$41,775",11.2,4.2,6.9,2.37,160.4,,,23.6,,
+238,Fidelity National Financial,Insurance: Property and Casualty (Stock),www.fnf.com,Jacksonville,FL,32204,"28,290",FNF,"$15,643",288,45.1,"$2,422",69.7,"$60,690","$9,414","$13,850",15.5,4,25.7,8.44,69.1,29.2,,38.1,20.2,
+239,DTE Energy,Utilities: Gas and Electric,www.dteenergy.com,Detroit,MI,48226,"10,300",DTE,"$15,369",250,26.2,$907,-33.7,"$39,719","$8,705","$25,615",5.9,2.3,10.4,4.67,-34,-0.7,1.1,19.7,10.9,13.8
+240,Murphy USA,Specialty Retailers: Other,www.murphyusa.com,El Dorado,AR,71730,"10,430",MUSA,"$15,319",322,61.2,$397,2.8,"$4,048",$807,"$4,889",2.6,9.8,49.2,14.92,14.1,21.7,,53.3,26.7,
+241,Halliburton,"Oil and Gas Equipment, Services",www.halliburton.com,Houston,TX,77032,"40,000",HAL,"$15,295",211,5.9,"$1,457",,"$22,321","$6,713","$34,029",9.5,6.5,21.7,1.63,,,-6.2,22,-14,-2.3
+242,Automatic Data Processing,Diversified Outsourcing Services,www.adp.com,Roseland,NJ,7068,"56,000",ADP,"$15,005",208,2.8,"$2,599",5.4,"$48,773","$5,670","$95,577",17.3,5.3,45.8,6.07,6.5,13.3,9.2,42.7,21.7,20.8
+243,Edison International,Utilities: Gas and Electric,www.edisoninvestor.com,Rosemead,CA,91770,"13,003",EIX,"$14,905",226,9.8,$759,2.7,"$74,745","$15,888","$26,694",5.1,1,4.8,2,1,-12.8,,13.6,2.8,8.6
+244,BorgWarner,Motor Vehicles and Parts,www.borgwarner.com,Auburn Hills,MI,48326,"49,300",BWA,"$14,838",295,46,$537,7.4,"$16,575","$6,948","$9,335",3.6,3.2,7.7,2.24,-4.3,32.4,0.1,18.3,4.4,4.8
+245,Nordstrom,General Merchandisers,www.nordstrom.com,Seattle,WA,98101,"72,000",JWN,"$14,789",289,38,$178,,"$8,869",$581,"$4,321",1.2,2,30.6,1.1,,-11.4,-10,-27.5,-11.9,-4.7
+246,Loews,Insurance: Property and Casualty (Stock),www.loews.com,New York,NY,10065,"10,340",L,"$14,657",239,16.5,"$1,578",,"$81,626","$17,846","$15,971",10.8,1.9,8.8,6.07,,25.8,8.7,28.9,4.8,5
+247,Guardian Life Ins. Co. of America,"Insurance: Life, Health (Mutual)",www.guardianlife.com,New York,NY,10001,"9,150",,"$14,648",227,8,$289,"1,128.50","$90,420","$8,859",,2,0.3,3.3,,,,,,,
+248,Pioneer Natural Resources,"Mining, Crude-Oil Production",www.pxd.com,Irving,TX,75038,"1,932",PXD,"$14,643",428,119,"$2,118",,"$36,811","$22,837","$60,728",14.5,5.8,9.3,8.61,,,2.3,66.4,1.6,8.1
+249,AutoZone,Specialty Retailers: Other,www.autozone.com,Memphis,TN,38103,"85,050",AZO,"$14,630",238,15.8,"$2,170",25.2,"$14,516","-$1,798","$40,583",14.8,15,,95.19,32.3,18.5,17.2,76.8,21.6,20.5
+250,Lam Research,Semiconductors and Other Electronic Components,www.lamresearch.com,Fremont,CA,94538,"14,100",LRCX,"$14,626",304,45.6,"$3,909",73.6,"$15,892","$6,027","$74,997",26.7,24.6,64.8,26.9,78.1,38.8,16.6,53.8,49.2,36.1
+251,American Family Insurance Group,Insurance: Property and Casualty (Stock),www.amfam.com,Madison,WI,53783,"13,590",,"$14,612",232,11.8,$735,82.2,"$36,316","$11,067",,5,2,6.6,,,,,,,
+252,Illinois Tool Works,Industrial Machinery,www.itw.com,Glenview,IL,60025,"45,000",ITW,"$14,455",240,15,"$2,694",27.7,"$16,077","$3,625","$65,312",18.6,16.8,74.3,8.51,28.4,8.3,7.3,23.6,17.7,20.9
+253,Parker-Hannifin,Industrial Machinery,www.parker.com,Cleveland,OH,44124,"54,640",PH,"$14,348",223,4.8,"$1,746",44.7,"$20,341","$8,398","$36,457",12.2,8.6,20.8,13.35,43.7,17.8,7.7,18.3,19.8,17.4
+254,Otis Worldwide,Industrial Machinery,www.otis.com,Farmington,CT,6032,"70,000",OTIS,"$14,298",236,12.1,"$1,246",37.5,"$12,279","-$3,625","$32,701",8.7,10.1,,2.89,38.9,,,30.4,,
+255,Omnicom Group,"Advertising, Marketing",www.omnicomgroup.com,New York,NY,10017,"71,700",OMC,"$14,289",229,8.5,"$1,408",48.9,"$28,422","$3,270","$17,566",9.9,5,43,6.53,49.4,6.4,7,21.9,0.5,8.3
+256,Principal Financial,"Insurance: Life, Health (Stock)",www.principal.com,Des Moines,IA,50392,"18,600",PFG,"$14,263",206,-3.2,"$1,711",22.6,"$304,657","$16,069","$19,177",12,0.6,10.6,6.27,24.2,6.9,11.3,51.4,8.9,15.3
+257,Dominion Energy,Utilities: Gas and Electric,www.dominionenergy.com,Richmond,VA,23219,"17,100",D,"$14,218",193,-11.8,"$3,288",,"$99,590","$27,308","$68,883",23.1,3.3,12,3.98,,3,5,8,4.8,8.2
+258,Kellogg,Food Consumer Products,www.kelloggcompany.com,Battle Creek,MI,49017,"31,000",K,"$14,181",222,3,"$1,488",18.9,"$18,178","$3,720","$21,890",10.5,8.2,40,4.33,19.3,17.2,2.5,7.4,0.8,5.8
+259,Fluor,"Engineering, Construction",www.fluor.com,Irving,TX,75039,"40,582",FLR,"$14,157",196,-10.9,-$440,,"$7,280","$1,393","$4,052",-3.1,-6,-31.6,-3.29,,,,55.1,-12.5,-5.4
+260,AECOM,"Engineering, Construction",www.aecom.com,Dallas,TX,75240,"51,000",ACM,"$14,112",189,-13.9,$173,,"$11,734","$2,713","$10,857",1.2,1.5,6.4,1.16,,13.3,-6.7,55.4,16.3,14.2
+261,Reliance Steel & Aluminum,Metals,www.rsac.com,Los Angeles,CA,90071,"13,950",RS,"$14,093",343,59.9,"$1,413",282.8,"$9,536","$6,087","$11,314",10,14.8,23.2,21.97,288.2,39.5,17,37.8,17.9,15.2
+262,Jacobs Engineering Group,"Engineering, Construction",www.jacobs.com,Dallas,TX,75201,"53,500",J,"$14,093",225,3.8,$477,-3,"$14,633","$5,940","$17,807",3.4,3.3,8,3.2,-13.7,13.1,2.1,28.6,20.6,13.6
+263,Corning,"Electronics, Electrical Equip.",www.corning.com,Corning,NY,14831,"61,200",GLW,"$14,082",277,24.6,"$1,906",272.3,"$30,154","$12,333","$31,213",13.5,6.3,15.5,1.28,137,-16.9,-3.2,6,11.7,13.9
+264,Farmers Insurance Exchange,Insurance: Property and Casualty (Mutual),www.farmers.com,Woodland Hills,CA,91367,"11,787",,"$14,055",256,18.4,-$367,,"$21,741","$4,832",,-2.6,-1.7,-7.6,,,,,,,
+265,Qurate Retail,Internet Services and Retailing,www.qurateretail.com,Englewood,CO,80112,"26,745",QRTEA,"$14,044",216,-0.9,$340,-71.8,"$16,249","$2,894","$1,807",2.4,2.1,11.7,0.82,-71.3,-3.5,,-20.2,-3.1,2.2
+266,Pacific Life,"Insurance: Life, Health (Stock)",www.pacificlife.com,Newport Beach,CA,92660,"3,861",,"$13,936",303,38.5,"$1,102",,"$209,486","$16,615",,7.9,0.5,6.6,,,,,,,
+267,PulteGroup,Homebuilders,www.pultegroupinc.com,Atlanta,GA,30326,"6,182",PHM,"$13,927",284,26.2,"$1,946",38.3,"$13,353","$7,490","$10,116",14,14.6,26,7.43,43.4,33.5,,34.1,27.2,26.2
+268,Fidelity National Information Services,Financial Data Services,www.fisglobal.com,Jacksonville,FL,32204,"65,000",FIS,"$13,877",241,10.6,$417,163.9,"$82,931","$47,347","$61,215",3,0.5,0.9,0.67,168,-17.2,-7.9,-21.9,8.9,16.9
+269,IQVIA Holdings,Health Care: Pharmacy and Other Services,www.iqvia.com,Durham,NC,27703,"79,000",IQV,"$13,874",275,22.1,$966,246.2,"$24,689","$6,042","$44,141",7,3.9,16,4.95,246.2,45.5,,57.5,30,
+270,Marriott International,"Hotels, Casinos, Resorts",www.marriott.com,Bethesda,MD,20817,"120,000",MAR,"$13,857",293,31.1,"$1,099",,"$25,553","$1,414","$57,515",7.9,4.3,77.7,3.34,,4.8,19.8,25.3,15.9,20.3
+271,Berry Global Group,"Packaging, Containers",www.berryglobal.com,Evansville,IN,47710,"47,000",BERY,"$13,850",261,18.3,$733,31.1,"$17,882","$3,180","$7,832",5.3,4.1,23.1,5.3,28,22.9,,31.3,8.6,
+272,Ball,"Packaging, Containers",www.ball.com,Westminster,CO,80021,"24,300",BLL,"$13,811",260,17.2,$878,50.1,"$19,714","$3,627","$28,909",6.4,4.5,24.2,2.65,50.6,26.6,7.3,4.1,21.8,19.4
+273,Group 1 Automotive,"Automotive Retailing, Services",www.group1auto.com,Houston,TX,77024,"13,711",GPI,"$13,802",286,27.2,$552,92.7,"$5,749","$1,825","$2,860",4,9.6,30.2,30.11,94.1,35.2,24.1,50,21.6,15.5
+274,Leidos Holdings,Information Technology Services,www.leidos.com,Reston,VA,20190,"43,000",LDOS,"$13,737",248,11.7,$753,19.9,"$13,261","$4,291","$14,728",5.5,5.7,17.5,5.27,20.9,17.5,22,-14.2,13.7,17
+275,Wayfair,Internet Services and Retailing,www.wayfair.com,Boston,MA,2116,"16,681",W,"$13,708",217,-3.1,-$131,-170.8,"$4,570","-$1,619","$11,642",-1,-2.9,,-1.26,-167.7,,,-15.9,40.2,
+276,Consolidated Edison,Utilities: Gas and Electric,www.conedison.com,New York,NY,10003,"13,871",ED,"$13,676",249,11.7,"$1,346",22.3,"$63,116","$20,037","$33,525",9.8,2.1,6.7,3.85,17.4,-1.3,0.8,22.9,6.8,7.3
+277,Ameriprise Financial,Diversified Financials,www.ameriprise.com,Minneapolis,MN,55474,"12,000",AMP,"$13,443",253,12.4,"$2,760",79.9,"$175,979","$5,685","$33,213",20.5,1.6,48.5,23,88.5,24.1,18.1,57.9,25.1,22.7
+278,Xcel Energy,Utilities: Gas and Electric,www.xcelenergy.com,Minneapolis,MN,55401,"11,321",XEL,"$13,431",272,16.5,"$1,597",8.4,"$57,851","$15,612","$39,276",11.9,2.8,10.2,2.96,6.1,6,5.6,4.3,13.9,13
+279,O'Reilly Automotive,Specialty Retailers: Other,www.oreillyauto.com,Springfield,MO,65802,"76,158",ORLY,"$13,328",268,14.8,"$2,165",23.5,"$11,719",-$66,"$45,410",16.2,18.5,,31.1,32.2,23.7,23.7,56,20.5,24.3
+280,Global Partners,Wholesalers: Diversified,www.globalp.com,Waltham,MA,2453,"2,960",GLP,"$13,248",361,59.2,$61,-40.5,"$2,831",$528,$927,0.5,2.1,11.5,1.31,-52.2,,4.2,56.7,15.6,10.8
+281,Discover Financial Services,Commercial Banks,www.discover.com,Riverwoods,IL,60015,"16,700",DFS,"$13,221",233,2.1,"$5,449",377.6,"$110,242","$13,408","$31,077",41.2,4.9,40.6,17.83,395.3,25.3,15.9,29.8,12.3,19.2
+282,Rocket Companies,Diversified Financials,www.rocketcompanies.com,Detroit,MI,48226,"26,000",RKT,"$13,176",194,-17.6,$308,55.7,"$32,775",$666,"$21,906",2.3,0.9,46.3,2.32,31.8,,,-27.4,,
+283,LKQ,Wholesalers: Diversified,www.lkqcorp.com,Chicago,IL,60661,"46,000",LKQ,"$13,089",266,12.6,"$1,091",70.9,"$12,606","$5,772","$12,941",8.3,8.7,18.9,3.66,75.1,19.5,17.8,71.1,14.5,14.9
+284,W.W. Grainger,Wholesalers: Diversified,www.grainger.com,Lake Forest,IL,60045,"23,450",GWW,"$13,022",258,10.4,"$1,043",50.1,"$6,592","$1,874","$26,358",8,15.8,55.7,19.84,54.8,15,8.1,28.8,19.7,12.8
+285,Quanta Services,"Engineering, Construction",www.quantaservices.com,Houston,TX,77056,"43,700",PWR,"$12,980",278,15.9,$486,9.1,"$12,855","$5,112","$18,780",3.7,3.8,9.5,3.34,8.8,21.5,18.3,59.6,27.2,18.3
+286,Crown Holdings,"Packaging, Containers",www.crowncork.com,Yardley,PA,19067,"26,000",CCK,"$12,979",269,12.1,-$560,-196.7,"$13,858","$1,912","$15,461",-4.3,-4,-29.3,-4.3,-200,,,11.2,16.2,12.7
+287,Fox,Entertainment,www.foxcorporation.com,New York,NY,10036,"9,000",FOXA,"$12,909",247,4.9,"$2,150",115.2,"$22,926","$11,123","$21,423",16.7,9.4,19.3,3.61,122.8,,,28.3,,
+288,Sempra,Utilities: Gas and Electric,www.sempra.com,San Diego,CA,92101,"15,390",SRE,"$12,857",255,7.7,"$1,317",-66.5,"$72,045","$25,981","$53,088",10.2,1.8,5.1,4.01,-68.9,-6,-3.3,7.3,8.9,12.5
+289,Markel,Insurance: Property and Casualty (Stock),www.markel.com,Glen Allen,VA,23060,"20,300",MKL,"$12,846",311,32,"$2,425",197.2,"$48,449","$14,695","$20,038",18.9,5,16.5,176.51,217.3,41.4,28.3,19.4,6.4,11.5
+290,Carvana,"Automotive Retailing, Services",www.carvana.com,Tempe,AZ,85281,"21,000",CVNA,"$12,814",483,129.4,-$135,,"$7,015",$306,"$19,550",-1.1,-1.9,-44.1,-1.63,,,,-3.2,,
+291,XPO Logistics,Transportation and Logistics,www.xpo.com,Greenwich,CT,6831,"44,700",XPO,"$12,806",190,-21.2,$336,205.5,"$8,707","$1,138","$8,357",2.6,3.9,29.5,2.93,275.6,40.8,,11.6,25.3,26.8
+292,Baxter International,Medical Products and Equipment,www.baxter.com,Deerfield,IL,60015,"60,000",BAX,"$12,784",264,9.5,"$1,284",16.5,"$33,521","$9,077","$39,018",10,3.8,14.1,2.53,18.8,-22.4,-4.2,8.4,15.4,14.2
+293,Ecolab,Chemicals,www.ecolab.com,St. Paul,MN,55102,"47,000",ECL,"$12,733",237,-0.1,"$1,130",,"$21,206","$7,224","$50,548",8.9,5.3,15.6,3.91,,-1.1,7.4,9.4,16.1,16.3
+294,Tractor Supply,Specialty Retailers: Other,www.tractorsupply.com,Brentwood,TN,37027,"34,000",TSCO,"$12,731",291,19.9,$997,33.1,"$7,768","$2,003","$26,172",7.8,12.8,49.8,8.61,35,21.4,19.1,71.6,27.5,22.5
+295,Andersons,Food Production,www.andersonsinc.com,Maumee,OH,43537,"2,334",ANDE,"$12,729",366,55.1,$104,"1,248.70","$4,569","$1,072","$1,708",0.8,2.3,9.7,3.07,"1,234.80",49.6,-1,62,-0.3,4.9
+296,Keurig Dr Pepper,Beverages,www.keurigdrpepper.com,Burlington,MA,1803,"27,500",KDP,"$12,683",267,9.2,"$2,146",62,"$50,598","$24,972","$53,748",16.9,4.2,8.6,1.5,61.3,-19.9,-5.8,17.4,20.7,21.1
+297,Universal Health Services,Health Care: Medical Facilities,www.uhsinc.com,King of Prussia,PA,19406,"78,850",UHS,"$12,642",270,9.4,$992,5,"$13,094","$6,090","$10,843",7.8,7.6,16.3,11.82,7.6,10.6,11.3,-5.2,4.4,13.3
+298,CSX,Railroads,www.csx.com,Jacksonville,FL,32202,"20,919",CSX,"$12,522",292,18.3,"$3,781",36.7,"$40,531","$13,490","$81,588",30.2,9.3,28,1.68,40,22.7,11.7,25.7,27.5,20.5
+299,Henry Schein,Wholesalers: Health Care,www.henryschein.com,Melville,NY,11747,"21,600",HSIC,"$12,401",298,22.6,$631,56.3,"$8,481","$3,425","$11,960",5.1,7.4,18.4,4.45,57.8,7.5,8.4,16,5.7,12
+300,Sonic Automotive,"Automotive Retailing, Services",www.sonicautomotive.com,Charlotte,NC,28211,"10,200",SAH,"$12,396",308,26.9,$349,,"$4,975","$1,076","$1,729",2.8,7,32.4,8.06,,31.8,20.1,29.4,18.1,13.9
+301,eBay,Internet Services and Retailing,www.ebay.com,San Jose,CA,95125,"10,800",EBAY,"$12,394",276,9.2,"$13,608",140.1,"$26,626","$9,778","$33,642",109.8,51.1,139.2,20.54,160.3,26.5,23.6,33.8,18.5,18.3
+302,Textron,Aerospace and Defense,www.textron.com,Providence,RI,2903,"33,000",TXT,"$12,382",265,6.3,$746,141.4,"$15,827","$6,815","$16,091",6,4.7,10.9,3.3,144.4,-1.3,15.4,59.9,9.9,15.6
+303,Jones Financial (Edward Jones),Securities,www.edwardjones.com,Des Peres,MO,63131,"50,000",,"$12,373",295,21.7,"$1,605",24.9,"$32,208","$3,755",,13,5,42.7,,,,,,,
+304,Community Health Systems,Health Care: Medical Facilities,www.chs.net,Franklin,TN,37067,"58,500",CYH,"$12,368",259,4.9,$230,-55,"$15,217","-$1,372","$1,599",1.9,1.5,,1.76,-59.9,,-2.3,79.1,18.9,-0.7
+305,Mosaic,Chemicals,www.mosaicco.com,Tampa,FL,33602,"12,525",MOS,"$12,357",346,42.3,"$1,631",144.8,"$22,036","$10,604","$24,493",13.2,7.4,15.4,4.27,144,38.1,-2.7,72.2,7.3,-0.7
+306,Thor Industries,Motor Vehicles and Parts,www.thorindustries.com,Elkhart,IN,46514,"31,000",THO,"$12,317",368,50.8,$660,195.9,"$6,654","$2,922","$4,331",5.4,9.9,22.6,11.85,194.8,19.4,20,13.2,2.6,17
+307,Dick's Sporting Goods,Specialty Retailers: Other,www.dickssportinggoods.com,Coraopolis,PA,15108,"34,300",DKS,"$12,293",320,28.3,"$1,520",186.6,"$9,042","$2,102","$7,987",12.4,16.8,72.3,13.87,142.5,40.2,20.8,116.4,20.6,15
+308,Newmont,"Mining, Crude-Oil Production",www.newmont.com,Denver,CO,80237,"14,400",NEM,"$12,222",273,6.3,"$1,166",-58.8,"$40,564","$22,022","$62,968",9.5,2.9,5.3,1.46,-58.4,,7.2,7.4,15.5,2.4
+309,Devon Energy,"Mining, Crude-Oil Production",www.devonenergy.com,Oklahoma City,OK,73102,"1,600",DVN,"$12,206",,139.8,"$2,813",,"$21,025","$9,262","$39,274",23,13.4,30.4,4.19,,,-9.4,195.3,2.4,-1.1
+310,Warner Bros. Discovery,Entertainment,www.wbd.com,New York,NY,10003,"11,000",WBD,"$12,191",290,14.2,"$1,006",-17.5,"$34,427","$11,599","$12,701",8.3,2.9,8.7,1.54,-14.9,-4.7,1,-21.8,-3,1.4
+311,J.B. Hunt Transport Services,"Trucking, Truck Leasing",www.jbhunt.com,Lowell,AR,72745,"33,045",JBHT,"$12,168",315,26.3,$761,50.3,"$6,794","$3,118","$21,053",6.3,11.2,24.4,7.14,50.6,13.4,13,50.6,17.1,17.4
+312,Alcoa,Metals,www.alcoa.com,Pittsburgh,PA,15212,"12,200",AA,"$12,152",330,30.9,$429,,"$15,025","$4,672","$16,603",3.5,2.9,9.2,2.26,,,,159,16.3,
+313,Peter Kiewit Sons',"Engineering, Construction",www.kiewit.com,Omaha,NE,68102,"28,800",,"$12,149",243,-2.5,$753,-8.8,"$6,238","$2,971",,6.2,12.1,25.3,,,,,,,
+314,Aramark,Diversified Outsourcing Services,www.aramark.com,Philadelphia,PA,19103,"248,300",ARMK,"$12,096",235,-5.7,-$91,,"$14,376","$2,723","$9,656",-0.8,-0.6,-3.3,-0.36,,,,-3.1,1.8,
+315,Vistra,Energy,www.vistracorp.com,Irving,TX,75039,"5,060",VST,"$12,077",274,5.5,"-$1,274",-300.3,"$29,683","$8,291","$10,435",-10.5,-4.3,-15.4,-2.69,-306.9,,,19.6,9.8,
+316,State Street,Commercial Banks,www.statestreet.com,Boston,MA,2111,"38,784",STT,"$12,030",252,-0.4,"$2,693",11.3,"$314,624","$27,363","$31,892",22.4,0.9,9.8,7.19,13.8,7.7,6.7,31,6.2,11.1
+317,Unum Group,"Insurance: Life, Health (Stock)",www.unum.com,Chattanooga,TN,37402,"10,200",UNM,"$12,014",230,-8.7,$824,3.9,"$70,116","$11,416","$6,383",6.9,1.2,7.2,4.02,3.3,0.4,17.8,11.9,-7.7,4.5
+318,Alleghany,Insurance: Property and Casualty (Stock),www.alleghany.com,New York,NY,10018,"13,313",Y,"$12,004",339,34.9,"$1,035",917.1,"$32,269","$9,187","$11,396",8.6,3.2,11.3,74.66,960.5,20.3,16.5,10.6,2.8,9.4
+319,Boston Scientific,Medical Products and Equipment,www.bostonscientific.com,Marlborough,MA,1752,"41,000",BSX,"$11,888",305,19.9,"$1,041",,"$32,229","$16,622","$63,310",8.8,3.2,6.3,0.69,,22.5,9.1,18.2,14.5,23
+320,Westlake,Chemicals,www.westlake.com,Houston,TX,77056,"14,550",WLK,"$11,778",388,57,"$2,015",510.6,"$18,459","$7,955","$15,785",17.1,10.9,25.3,15.58,508.6,38.5,23.2,20.5,13.1,19
+321,Entergy,Utilities: Gas and Electric,www.entergy.com,New Orleans,LA,70113,"12,369",ETR,"$11,743",300,16.1,"$1,119",-19.4,"$59,454","$11,637","$23,760",9.5,1.9,9.6,5.54,-19.7,,-3,17.2,13.3,9.1
+322,International Flavors & Fragrances,Chemicals,www.iff.com,New York,NY,10019,"24,000",IFF,"$11,656",,129.3,$270,-25.7,"$39,658","$21,082","$33,456",2.3,0.7,1.3,1.1,-65.7,-26.3,-10.3,41.6,7.4,13.5
+323,DaVita,Health Care: Medical Facilities,www.davita.com,Denver,CO,80202,"69,000",DVA,"$11,619",271,0.6,$979,26.5,"$17,122",$756,"$10,893",8.4,5.7,129.5,8.9,41,15.7,13.6,-3.1,12.1,11.6
+324,Mutual of Omaha Insurance,"Insurance: Life, Health (Stock)",www.mutualofomaha.com,Omaha,NE,68175,"5,739",,"$11,459",282,3.3,$579,-17.1,"$49,853","$8,995",,5.1,1.2,6.4,,,,,,,
+325,Assurant,Insurance: Property and Casualty (Stock),www.assurant.com,New York,NY,10006,"15,600",AIZ,"$11,410",302,13,"$1,372",210.6,"$33,912","$5,490","$10,493",12,4,25,22.83,226.6,20.1,15.1,16.5,13.3,16.7
+326,Liberty Media,Entertainment,www.libertymedia.com,Englewood,CO,80112,"6,886",LSXMA,"$11,400",326,21.8,$398,,"$44,351","$14,672","$15,239",3.5,0.9,2.7,,,,,17.7,,
+327,Hormel Foods,Food Consumer Products,www.hormelfoods.com,Austin,MN,55912,"20,000",HRL,"$11,386",317,18.5,$909,0.1,"$12,696","$6,973","$28,089",8,7.2,13,1.66,0,0.2,6.7,7,9.1,14.9
+328,Icahn Enterprises,Diversified Financials,www.ielp.com,Sunny Isles Beach,FL,33160,"19,536",IEP,"$11,328",453,85,-$518,,"$27,746","$3,544","$15,237",-4.6,-1.9,-14.6,-2.32,,,,13.5,9.6,13.9
+329,Republic Services,Waste Management,www.republicservices.com,Phoenix,AZ,85054,"35,000",RSG,"$11,295",297,11.2,"$1,290",33.4,"$24,955","$8,979","$41,842",11.4,5.2,14.4,4.04,33.8,17.8,10,47.1,21.9,20.5
+330,Mohawk Industries,"Home Equipment, Furnishings",www.mohawkind.com,Calhoun,GA,30701,"43,000",MHK,"$11,201",321,17.3,"$1,033",100.4,"$14,225","$8,421","$8,082",9.2,7.3,12.3,14.94,106.9,3.7,19.5,29.3,-1.8,11.8
+331,Conagra Brands,Food Consumer Products,www.conagrabrands.com,Chicago,IL,60654,"18,600",CAG,"$11,185",283,1.2,"$1,299",54.6,"$22,196","$8,552","$16,104",11.6,5.9,15.2,2.66,54.7,,3.5,-2.5,-0.1,8.5
+332,Norfolk Southern,Railroads,www.norfolksouthern.com,Atlanta,GA,30308,"18,100",NSC,"$11,142",307,13.8,"$3,005",49.3,"$38,493","$13,641","$68,389",27,7.8,22,12.11,54.5,16.6,8.3,27.3,24.7,17.7
+333,AES,Utilities: Gas and Electric,www.aes.com,Arlington,VA,22203,"8,450",AES,"$11,141",313,15.3,-$409,-989.1,"$32,963","$2,798","$17,172",-3.7,-1.2,-14.6,-0.61,-971.4,,,5.8,20,10.5
+334,AGCO,Construction and Farm Machinery,www.agcocorp.com,Duluth,GA,30096,"23,300",AGCO,"$11,138",331,21.7,$897,110,"$9,182","$3,416","$10,885",8.1,9.8,26.3,11.85,109.7,43.3,7.1,16.4,16.6,11.6
+335,Caesars Entertainment,"Hotels, Casinos, Resorts",www.caesars.com,Reno,NV,89501,"49,000",CZR,"$11,110",,219.8,"-$1,019",,"$38,031","$4,480","$16,565",-9.2,-2.7,-22.7,-4.83,,,,25.9,40.7,
+336,Equitable Holdings,"Insurance: Life, Health (Stock)",www.equitableholdings.com,New York,NY,10104,"10,000",EQH,"$11,036",244,-11.1,-$439,,"$292,262","$11,519","$12,041",-4,-0.2,-3.8,-1.24,,,,31.1,,
+337,Advance Auto Parts,Specialty Retailers: Other,www.advanceautoparts.com,Raleigh,NC,27609,"54,500",AAP,"$10,998",301,8.8,$616,25,"$12,194","$3,128","$12,645",5.6,5.1,19.7,9.55,33.8,9,6.5,54.2,7.8,13.6
+338,Biogen,Pharmaceuticals,www.biogen.com,Cambridge,MA,2142,"9,610",BIIB,"$10,982",228,-18.3,"$1,556",-61.1,"$23,877","$10,896","$30,950",14.2,6.5,14.3,10.4,-58.1,-9.3,7.5,-2,-1.7,9
+339,Auto-Owners Insurance,Insurance: Property and Casualty (Mutual),www.auto-owners.com,Lansing,MI,48917,"6,441",,"$10,980",341,24,"$1,318",59,"$32,487","$15,265",,12,4.1,8.6,,,,,,,
+340,Booking Holdings,Internet Services and Retailing,www.bookingholdings.com,Norwalk,CT,6854,"20,199",BKNG,"$10,958",424,61.2,"$1,165","1,874.60","$23,641","$6,178","$96,023",10.6,4.9,18.9,28.17,"1,856.30",-8,3.2,7.7,10.4,17.8
+341,Amphenol,Network and Other Communications Equipment,www.amphenol.com,Wallingford,CT,6492,"90,000",APH,"$10,876",349,26.5,"$1,591",32.2,"$14,678","$6,302","$45,130",14.6,10.8,25.2,2.54,29.9,14.2,12.8,34.7,22.2,23.7
+342,Quest Diagnostics,Health Care: Pharmacy and Other Services,www.questdiagnostics.com,Secaucus,NJ,7094,"44,500",DGX,"$10,788",324,14.3,"$1,995",39.4,"$13,611","$6,444","$16,349",18.5,14.7,31,15.55,48.5,28.1,18.2,47.8,15.7,13.7
+343,FirstEnergy,Utilities: Gas and Electric,www.firstenergycorp.com,Akron,OH,44308,"12,395",FE,"$10,758",294,3.1,"$1,283",18.9,"$45,432","$8,675","$26,182",11.9,2.8,14.8,2.35,18.1,,0.6,41.7,10.6,3.9
+344,DCP Midstream,Pipelines,www.dcpmidstream.com,Denver,CO,80237,"1,788",DCP,"$10,707",442,69.9,$391,,"$13,380","$5,851","$6,993",3.7,2.9,6.7,1.59,,-0.6,-0.8,57.5,2.9,3.2
+345,Ally Financial,Diversified Financials,www.ally.com,Detroit,MI,48226,"10,500",ALLY,"$10,690",287,-0.8,"$3,060",182,"$182,114","$17,050","$14,412",28.6,1.7,17.9,8.22,185.4,30.8,,35.9,22.9,
+346,Delek US Holdings,Petroleum Refining,www.delekus.com,Brentwood,TN,37027,"3,312",DK,"$10,648",397,45.8,-$204,,"$6,728",$828,"$1,500",-1.9,-3,-24.6,-2.75,,,,-6.7,-6.5,
+347,Williams,Pipelines,www.williams.com,Tulsa,OK,74172,"4,783",WMB,"$10,627",379,37.7,"$1,517",619,"$47,612","$11,423","$40,670",14.3,3.2,13.3,1.24,629.4,,7,38.4,2.6,5.6
+348,Newell Brands,"Home Equipment, Furnishings",www.newellbrands.com,Atlanta,GA,30328,"32,000",NWL,"$10,589",325,12.8,$572,,"$14,179","$4,091","$8,902",5.4,4,14,1.34,,1.4,12.3,6.7,-9.7,6.3
+349,Eastman Chemical,Chemicals,www.eastman.com,Kingsport,TN,37660,"14,000",EMN,"$10,476",355,23.6,$857,79.3,"$15,519","$5,704","$14,450",8.2,5.5,15,6.25,78.6,1.7,2.5,23.7,13.2,14.8
+350,Air Products & Chemicals,Chemicals,www.airproducts.com,Allentown,PA,18106,"20,750",APD,"$10,323",340,16.6,"$2,099",11.3,"$26,859","$13,540","$55,409",20.3,7.8,15.5,9.43,11.1,26.7,5.3,13.7,18.8,17.5
+351,Thrivent Financial for Lutherans,"Insurance: Life, Health (Mutual)",www.thrivent.com,Minneapolis,MN,55415,"3,256",,"$10,313",369,26.5,"$2,530",297.2,"$116,525","$13,695",,24.5,2.2,18.5,,,,,,,
+352,Molson Coors Beverage,Beverages,www.molsoncoors.com,Chicago,IL,60606,"16,300",TAP,"$10,280",314,6.5,"$1,006",,"$27,619","$13,417","$11,632",9.8,3.6,7.5,4.62,,-13,2.4,4.1,-11.9,2.9
+353,Interpublic Group,"Advertising, Marketing",www.interpublic.com,New York,NY,10022,"55,600",IPG,"$10,241",334,13,$953,171.4,"$19,909","$3,526","$13,966",9.3,4.8,27,2.39,168.5,9.9,9.2,64.4,14.3,18
+354,Weyerhaeuser,Forest and Paper Products,www.weyerhaeuser.com,Seattle,WA,98104,"9,214",WY,"$10,201",387,35.4,"$2,607",227.1,"$17,652","$10,767","$28,315",25.6,14.8,24.2,3.47,224.3,20.1,19,26.9,10.6,12.1
+355,Altice USA,Telecommunications,www.alticeusa.com,Long Island City,NY,11101,"9,000",ATUS,"$10,091",306,2,$990,127,"$33,215",-$820,"$5,674",9.8,3,,2.14,185.3,,,-57.3,,
+356,Raymond James Financial,Securities,www.raymondjames.com,St. Petersburg,FL,33716,"15,000",RJF,"$9,910",367,21.3,"$1,403",71.5,"$61,891","$8,245","$22,818",14.2,2.3,17,6.63,70.6,22.2,16.3,59.4,18.5,18.8
+357,EMCOR Group,"Engineering, Construction",www.emcorgroup.com,Norwalk,CT,6851,"34,000",EME,"$9,904",344,12.6,$384,188.5,"$5,441","$2,252","$5,932",3.9,7,17,7.06,194.2,18.9,14,39.9,13,17.6
+358,Eversource Energy,Utilities: Gas and Electric,www.eversource.com,Springfield,MA,1104,"9,227",ES,"$9,863",338,10.8,"$1,221",1.3,"$48,492","$14,600","$30,403",12.4,2.5,8.4,3.54,-0.3,3.6,4.8,8.2,13.8,13.2
+359,Yum China Holdings,Food Services,ir.yumchina.com,Plano,TX,75024,"298,500",YUMC,"$9,853",363,19.2,$990,26.3,"$13,223","$7,056","$17,679",10,7.5,14,2.28,16.9,10.9,,-12,14.7,
+360,Asbury Automotive Group,"Automotive Retailing, Services",www.asburyauto.com,Duluth,GA,30097,"14,200",ABG,"$9,838",405,37.9,$532,109.3,"$8,003","$2,116","$3,715",5.4,6.7,25.2,26.49,101,29.1,29,18.5,22.9,23.1
+361,Owens & Minor,Wholesalers: Health Care,www.owens-minor.com,Mechanicsville,VA,23116,"17,300",OMI,"$9,785",345,12.4,$222,641.8,"$3,537",$939,"$3,376",2.3,6.3,23.6,2.94,525.5,10.8,5,60.9,6.4,7.2
+362,Public Service Enterprise Group,Utilities: Gas and Electric,www.pseg.com,Newark,NJ,7102,"12,684",PEG,"$9,722",318,1.2,-$648,-134,"$48,999","$14,438","$35,146",-6.7,-1.3,-4.5,-1.29,-134.3,,,18.3,12.6,11.4
+363,United Rentals,Miscellaneous,www.unitedrentals.com,Stamford,CT,6902,"20,400",URI,"$9,716",352,13.9,"$1,386",55.7,"$20,292","$5,991","$25,643",14.3,6.8,23.1,19.04,56.1,24.2,30,43.3,25.8,27.4
+364,MGM Resorts International,"Hotels, Casinos, Resorts",www.mgmresorts.com,Las Vegas,NV,89109,"60,500",MGM,"$9,680",,87.5,"$1,254",,"$40,899","$6,071","$18,258",13,3.1,20.7,2.41,,4.7,-8.1,42.5,10.6,16.4
+365,Ryder System,Transportation and Logistics,www.ryder.com,Miami,FL,33178,"42,800",R,"$9,663",357,14.8,$519,,"$13,834","$2,798","$4,055",5.4,3.8,18.6,9.66,,14.5,11.4,37.5,5.9,7.6
+366,Intuit,Computer Software,www.intuit.com,Mountain View,CA,94043,"17,350",INTU,"$9,633",380,25.4,"$2,062",12.9,"$15,516","$9,869","$135,988",21.4,13.3,20.9,7.56,9.2,15.4,14.2,70.2,42.3,29.7
+367,Cincinnati Financial,Insurance: Property and Casualty (Stock),www.cinfin.com,Fairfield,OH,45014,"5,166",CINF,"$9,630",386,27.8,"$2,946",142.2,"$31,387","$13,105","$21,813",30.6,9.4,22.5,18.1,141.7,38.5,33.3,33.4,11.5,17.9
+368,Erie Insurance Group,Insurance: Property and Casualty (Mutual),www.erieinsurance.com,Erie,PA,16530,"5,805",,"$9,620",347,11,"$1,130",-3.7,"$27,297","$13,088",,11.7,4.1,8.6,,,,,,,
+369,Univar Solutions,Wholesalers: Diversified,www.univarsolutions.com,Downers Grove,IL,60515,"9,450",UNVR,"$9,536",362,15.4,$461,770.7,"$6,778","$2,293","$5,460",4.8,6.8,20.1,2.69,767.7,,,49.1,0,
+370,Huntington Ingalls Industries,Aerospace and Defense,www.huntingtoningalls.com,Newport News,VA,23607,"44,000",HII,"$9,524",327,1.7,$544,-21.8,"$10,627","$2,808","$7,991",5.7,5.1,19.4,13.5,-21.2,2.1,,12.1,2.1,21.2
+371,W.R. Berkley,Insurance: Property and Casualty (Stock),www.berkley.com,Greenwich,CT,6830,"7,681",WRB,"$9,456",372,16.7,"$1,023",92.7,"$32,086","$6,653","$17,659",10.8,3.2,15.4,3.65,95,11.9,11.7,27.3,15.7,16.1
+372,Western & Southern Financial Group,"Insurance: Life, Health (Mutual)",www.westernsouthern.com,Cincinnati,OH,45202,"2,538",,"$9,442",374,17.2,$361,76.7,"$62,877","$7,160",,3.8,0.6,5,,,,,,,
+373,Insight Enterprises,Information Technology Services,www.insight.com,Tempe,AZ,85283,"11,624",NSIT,"$9,436",360,13.1,$219,27.1,"$4,689","$1,509","$3,745",2.3,4.7,14.5,5.95,22.2,20.7,10.6,40.1,21.4,21.4
+374,News Corp.,"Publishing, Printing",www.newscorp.com,New York,NY,10036,"24,000",NWSA,"$9,358",337,3.9,$330,,"$16,771","$8,211","$13,128",3.5,2,4,0.56,,13.3,,25.1,15.9,
+375,American Tower,Real Estate,www.americantower.com,Boston,MA,2116,"6,378",AMT,"$9,357",375,16.4,"$2,568",51.9,"$69,888","$5,081","$114,527",27.4,3.7,50.5,5.66,49.3,23.4,19,32.9,25,19.2
+376,Old Republic International,Insurance: Property and Casualty (Stock),www.oldrepublic.com,Chicago,IL,60601,"9,600",ORI,"$9,342",401,30.4,"$1,534",174.7,"$24,982","$6,893","$7,973",16.4,6.1,22.3,5.05,170.1,25.5,,44.6,14,17.6
+377,Burlington Stores,Specialty Retailers: Apparel,www.burlingtoninvestors.com,Burlington,NJ,8016,"38,599",BURL,"$9,322",471,61.7,$409,,"$7,090",$760,"$12,113",4.4,5.8,53.8,6,,14.8,,11.5,28,
+378,Avis Budget Group,"Automotive Retailing, Services",www.avisbudgetgroup.com,Parsippany,NJ,7054,"18,500",CAR,"$9,313",498,72.4,"$1,285",,"$22,600",-$220,"$14,157",13.8,5.7,,19.44,,61.9,,456,41.4,34.5
+379,ODP,Specialty Retailers: Other,www.officedepot.com,Boca Raton,FL,33496,"26,000",ODP,"$9,267",312,-4.6,-$208,,"$4,865","$1,438","$2,222",-2.2,-4.3,-14.5,-3.79,,,,34.1,-0.5,7.6
+380,VF,Apparel,www.vfc.com,Denver,CO,80202,"33,600",VFC,"$9,239",263,-21,$408,-40,"$13,754","$3,056","$22,113",4.4,3,13.3,1.04,-38.8,-16.4,-6.3,-12,10.7,11.9
+381,Bed Bath & Beyond,Specialty Retailers: Other,www.bedbathandbeyond.com,Union,NJ,7083,"37,600",BBBY,"$9,233",280,-17.3,-$151,,"$6,457","$1,277","$2,171",-1.6,-2.3,-11.8,-1.24,,,,-17.9,-16.1,-11.6
+382,Seaboard,Food Production,www.seaboardcorp.com,Merriam,KS,66202,"13,200",SEB,"$9,229",406,29.5,$570,101.4,"$7,503","$4,416","$4,882",6.2,7.6,12.9,490.36,100.8,13,5.6,30.1,0.1,7
+383,First American Financial,Insurance: Property and Casualty (Stock),www.firstam.com,Santa Ana,CA,92707,"22,233",FAF,"$9,221",409,30.1,"$1,241",78.2,"$16,451","$5,767","$7,087",13.5,7.5,21.5,11.14,80.8,29.2,31.3,56,20.1,23.5
+384,Intercontinental Exchange,Securities,www.ice.com,Atlanta,GA,30328,"8,858",ICE,"$9,168",365,11.2,"$4,058",94.3,"$193,502","$22,709","$74,045",44.3,2.1,17.9,7.18,90.5,24.8,17.9,19.9,20.8,20.2
+385,PVH,Apparel,www.pvh.com,New York,NY,10017,"25,000",PVH,"$9,155",404,28.4,$952,,"$12,397","$5,289","$5,210",10.4,7.7,18,13.25,,14.3,11.8,13.6,3.5,4.4
+386,Apollo Global Management,Securities,www.apollo.com,New York,NY,10019,"2,153",APO,"$9,124",,332.2,"$1,839","1,073.90","$30,502","$3,789","$37,194",20.2,6,48.5,7.32,"1,563.60",28.2,,53.3,37.6,29.3
+387,Jefferies Financial Group,Diversified Financials,www.jefferies.com,New York,NY,10022,"5,556",JEF,"$9,040",419,30,"$1,674",116,"$60,404","$10,554","$7,934",18.5,2.8,15.9,6.13,131.3,78.3,50.9,61.9,15,8.3
+388,Hershey,Food Consumer Products,www.thehersheycompany.com,Hershey,PA,17033,"17,805",HSY,"$8,971",370,10.1,"$1,478",15.5,"$10,412","$2,757","$44,462",16.5,14.2,53.6,7.11,16.4,16.3,10,29.5,16,14.7
+389,NVR,Homebuilders,www.nvrinc.com,Reston,VA,20190,"6,600",NVR,"$8,970",383,18.6,"$1,237",37.2,"$5,835","$3,002","$15,011",13.8,21.2,41.2,320.48,39.3,25.3,30.1,44.8,28.8,24
+390,Foot Locker,Specialty Retailers: Apparel,www.footlocker.com/corp,New York,NY,10001,"33,244",FL,"$8,958",385,18.7,$893,176.5,"$8,135","$3,239","$2,850",10,11,27.6,8.61,179.5,11.9,16.9,9.7,-6.8,8.7
+391,Dana,Motor Vehicles and Parts,www.dana.com,Maumee,OH,43537,"40,200",DAN,"$8,945",408,25.9,$197,,"$7,632","$1,922","$2,544",2.2,2.6,10.2,1.35,,-20.9,2.8,18.9,5.6,8.1
+392,SpartanNash,Wholesalers: Food and Grocery,www.spartannash.com,Byron Center,MI,49315,"13,300",SPTN,"$8,931",329,-4.5,$74,-2.8,"$2,207",$783,"$1,185",0.8,3.3,9.4,2.05,-3.3,6.3,3.7,53.6,-4.5,6.5
+393,Olin,Chemicals,www.olin.com,Clayton,MO,63105,"7,750",OLN,"$8,911",472,54.8,"$1,297",,"$8,518","$2,652","$8,062",14.6,15.2,48.9,7.96,,,10.3,138.4,21.6,15.2
+394,Chewy,Internet Services and Retailing,www.chewy.com,Dania Beach,FL,33004,"21,300",CHWY,"$8,891",403,24.4,-$74,,"$2,086",$15,"$17,147",-0.8,-3.5,-500.9,-0.18,,,,-34.4,,
+395,Jackson Financial,"Insurance: Life, Health (Stock)",www.jackson.com,Lansing,MI,48951,"3,150",JXN,"$8,848",,,"$3,183",,"$375,484","$10,394","$3,895",36,0.8,30.6,33.69,,,,,,
+396,Activision Blizzard,Entertainment,www.activisionblizzard.com,Santa Monica,CA,90404,"9,800",ATVI,"$8,803",373,8.9,"$2,699",22.8,"$25,056","$17,599","$62,560",30.7,10.8,15.3,3.44,22,21.9,14.1,-28,13.6,19.3
+397,Toll Brothers,Homebuilders,www.tollbrothers.com,Fort Washington,PA,19034,"5,100",TOL,"$8,790",411,24.2,$834,86.7,"$11,538","$5,295","$5,515",9.5,7.2,15.7,6.63,95,24.9,39.4,68.3,19.7,14.1
+398,Carlyle Group,Securities,www.carlyle.com,Washington,DC,20004,"1,850",CG,"$8,782",,199.3,"$2,975",754.3,"$21,250","$5,279","$17,428",33.9,14,56.3,8.2,745.4,,,78.5,35.6,
+399,Graybar Electric,Wholesalers: Diversified,www.graybar.com,St. Louis,MO,63105,"8,800",,"$8,767",399,20.7,$262,115.4,"$3,069","$1,127",,3,8.6,23.3,11.51,113.9,22.3,11.8,,,
+400,Ovintiv,"Mining, Crude-Oil Production",www.ovintiv.com,Denver,CO,80202,"1,713",OVV,"$8,658",458,42.2,"$1,416",,"$14,055","$5,074","$13,988",16.4,10.1,27.9,5.32,,,2.3,138.3,-8.6,-7.4
+401,UFP Industries,"Building Materials, Glass",www.ufpi.com,Grand Rapids,MI,49525,"15,000",UFPI,"$8,636",,67.6,$536,117.1,"$3,245","$1,979","$4,791",6.2,16.5,27.1,8.59,114.8,39,60.3,67,23.2,25.8
+402,Ulta Beauty,Specialty Retailers: Other,www.ulta.com,Bolingbrook,IL,60440,"28,500",ULTA,"$8,631",451,40.3,$986,460.7,"$4,764","$1,535","$20,838",11.4,20.7,64.2,17.98,478.1,22.5,25.2,43.6,10.1,20.4
+403,Constellation Brands,Beverages,www.cbrands.com,Victor,NY,14564,"9,300",STZ,"$8,615",359,3.3,"$1,998",,"$27,105","$13,599","$43,764",23.2,7.4,14.7,,,,,16.1,11.9,29.5
+404,Expedia Group,Internet Services and Retailing,www.expediagroup.com,Seattle,WA,98119,"14,800",EXPE,"$8,598",,65.4,$12,,"$21,548","$2,057","$30,477",0.1,0.1,0.6,-1.8,,,,36.5,10.6,21.1
+405,CommScope Holding,Network and Other Communications Equipment,www.commscope.com,Hickory,NC,28602,"30,000",COMM,"$8,587",356,1.8,-$463,,"$13,260",-$157,"$1,630",-5.4,-3.5,,-2.55,,,,-17.6,-21.6,
+406,Celanese,Chemicals,www.celanese.com,Irving,TX,75039,"8,529",CE,"$8,537",477,51,"$1,890",-4.8,"$11,975","$4,189","$15,434",22.1,15.8,45.1,16.86,0.7,22.2,16,31.6,18.8,16.3
+407,Global Payments,Financial Data Services,www.globalpayments.com,Atlanta,GA,30326,"25,000",GPN,"$8,524",394,14.8,$966,65.2,"$45,280","$25,628","$38,546",11.3,2.1,3.8,3.29,68.7,18.8,9.7,-36.9,14.5,19.2
+408,Owens Corning,"Building Materials, Glass",www.owenscorning.com,Toledo,OH,43659,"20,000",OC,"$8,498",413,20.5,$995,,"$10,015","$4,296","$9,065",11.7,9.9,23.2,9.54,,22.8,15.6,20.8,13.5,13.5
+409,Campbell Soup,Food Consumer Products,www.campbellsoupcompany.com,Camden,NJ,8103,"14,100",CPB,"$8,476",335,-6.3,"$1,002",-38.5,"$11,734","$3,152","$13,447",11.8,8.5,31.8,3.29,-38.6,12.7,3.1,-7.1,-3.4,5.8
+410,Huntsman,Chemicals,www.huntsman.com,The Woodlands,TX,77380,"9,000",HUN,"$8,453",460,40.3,"$1,045",1.1,"$9,392","$4,378","$8,047",12.4,11.1,23.9,4.72,1.3,28.3,16.6,42.2,15.8,16.4
+411,Franklin Resources,Securities,www.franklinresources.com,San Mateo,CA,94403,"10,300",BEN,"$8,426",484,51.4,"$1,831",129.2,"$24,168","$11,223","$14,019",21.7,7.6,16.3,3.57,124.5,4,2.2,39.2,1.8,4
+412,Avery Dennison,"Packaging, Containers",www.averydennison.com,Glendale,CA,91203,"36,000",AVY,"$8,408",417,20.6,$740,33.1,"$7,972","$1,924","$14,327",8.8,9.3,38.5,8.83,33.6,20.1,17.4,41.4,27.5,25.2
+413,Masco,"Home Equipment, Furnishings",www.masco.com,Livonia,MI,48152,"20,000",MAS,"$8,375",398,14.9,$410,-66.5,"$5,575",-$179,"$12,063",4.9,7.4,,1.62,-64.7,2,,29.6,18.7,24.2
+414,CenterPoint Energy,Utilities: Gas and Electric,www.centerpointenergy.com,Houston,TX,77002,"9,418",CNP,"$8,352",342,-5.5,"$1,486",,"$37,679","$9,415","$19,286",17.8,3.9,15.8,2.28,,17.9,-3.2,32.3,6.4,7.6
+415,Fifth Third Bancorp,Commercial Banks,www.53.com,Cincinnati,OH,45263,"19,112",FITB,"$8,329",358,-0.9,"$2,770",94.1,"$211,116","$22,210","$29,511",33.3,1.3,12.5,3.73,103.8,14.1,12.2,62.7,13.6,16.4
+416,WEC Energy Group,Utilities: Gas and Electric,www.wecenergygroup.com,Milwaukee,WI,53203,"6,938",WEC,"$8,316",400,14.8,"$1,300",8.4,"$38,989","$10,913","$31,484",15.6,3.3,11.9,4.11,8.4,6.8,6.3,8.7,14,14.4
+417,S&P Global,Financial Data Services,www.spglobal.com,New York,NY,10041,"22,850",SPGI,"$8,297",393,11.5,"$3,024",29.3,"$15,026","$2,032","$142,344",36.4,20.1,148.8,12.51,29.5,9.5,15.3,44.7,35.7,28.7
+418,FM Global,Insurance: Property and Casualty (Stock),www.fmglobal.com,Johnston,RI,2919,"5,560",,"$8,275",423,21.7,"$2,842",64.1,"$32,161","$19,369",,34.4,8.8,14.7,,,,,,,
+419,Polaris,Transportation Equipment,www.polaris.com,Medina,MN,55340,"16,000",PII,"$8,252",407,16.1,$494,295.8,"$5,048","$1,224","$6,264",6,9.8,40.3,7.88,296,19.2,9.4,17.7,8.6,9.3
+420,Williams-Sonoma,Specialty Retailers: Other,www.williams-sonomainc.com,San Francisco,CA,94109,"16,600",WSM,"$8,246",425,21.6,"$1,126",65.5,"$4,626","$1,664","$10,376",13.7,24.4,67.7,14.75,71.3,34,20.8,68.4,31.8,18.7
+421,Autoliv,Motor Vehicles and Parts,www.autoliv.com,Auburn Hills,MI,48326,"58,176",ALV,"$8,230",392,10.5,$435,132.7,"$7,537","$2,633","$6,691",5.3,5.8,16.5,4.96,131.8,-5,-2.9,14.5,7.2,12.9
+422,Arthur J. Gallagher,Diversified Financials,www.ajg.com,Rolling Meadows,IL,60008,"39,000",AJG,"$8,209",416,17.2,$907,10.7,"$33,345","$8,508","$36,599",11,2.7,10.7,4.37,4,13.5,13.1,39,29.3,20.9
+423,Motorola Solutions,Network and Other Communications Equipment,www.motorolasolutions.com,Chicago,IL,60661,"18,700",MSI,"$8,171",395,10.2,"$1,245",31.2,"$12,189",-$40,"$40,556",15.2,10.2,,7.17,31.6,17.2,7.7,62,29,21.7
+424,Zillow Group,Internet Services and Retailing,www.zillowgroup.com,Seattle,WA,98101,"8,005",ZG,"$8,147",,143.9,-$528,,"$10,696","$5,341","$12,287",-6.5,-4.9,-9.9,-2.11,,,,-54.2,11.3,23.6
+425,Opendoor Technologies,Internet Services and Retailing,www.opendoor.com,Tempe,AZ,85281,"2,816",OPEN,"$8,021",,210.5,-$662,,"$9,506","$2,248","$5,364",-8.3,-7,-29.4,-1.12,,,,-35.7,,
+426,J.M. Smucker,Food Consumer Products,www.jmsmucker.com,Orrville,OH,44667,"7,100",SJM,"$8,003",378,2.6,$876,12.4,"$16,284","$8,125","$14,686",11,5.4,10.8,7.79,13.9,6.2,6.8,21.1,4.2,8.5
+427,Realogy Holdings,Real Estate,www.realogy.com,Madison,NJ,7940,"9,748",RLGY,"$7,983",445,28.3,$343,,"$7,210","$2,186","$1,852",4.3,4.8,15.7,2.85,,14.3,,28.1,-6.9,
+428,Oshkosh,Construction and Farm Machinery,www.oshkoshcorp.com,Oshkosh,WI,54902,"15,000",OSK,"$7,953",422,16,$409,26.2,"$6,722","$3,076","$6,704",5.1,6.1,13.3,5.91,25.2,15.2,7.1,32.5,13.3,19.4
+429,MasTec,"Engineering, Construction",www.mastec.com,Coral Gables,FL,33134,"27,000",MTZ,"$7,952",441,25.8,$329,1.9,"$7,121","$2,540","$6,657",4.1,4.6,12.9,4.45,1.6,22.5,13.7,35.3,19.3,18.2
+430,GXO Logistics,Transportation and Logistics,www.gxo.com,Greenwich,CT,6831,"97,500",GXO,"$7,940",,,$153,,"$7,271","$2,351","$8,193",1.9,2.1,6.5,1.32,,,,,,
+431,APA,"Mining, Crude-Oil Production",www.apacorp.com,Houston,TX,77056,"2,253",APA,"$7,928",,84,$973,,"$13,303","-$1,595","$14,332",12.3,7.3,,2.59,,,-13.8,90.7,-14,-9.9
+432,Boise Cascade,Wholesalers: Diversified,www.bc.com,Boise,ID,83702,"6,130",BCC,"$7,926",493,44.8,$713,307.2,"$2,573","$1,353","$2,740",9,27.7,52.7,17.97,304.7,78.9,,62.8,31,
+433,Dover,Industrial Machinery,www.dovercorporation.com,Downers Grove,IL,60515,"25,000",DOV,"$7,907",429,18.3,"$1,124",64.4,"$10,404","$4,190","$22,610",14.2,10.8,26.8,7.74,64.7,19,5,45.7,27.6,19.3
+434,Genworth Financial,"Insurance: Life, Health (Stock)",www.genworth.com,Richmond,VA,23230,"2,500",GNW,"$7,882",348,-9,$904,407.9,"$99,171","$15,510","$1,918",11.5,0.9,5.8,1.76,402.9,,21.6,7.1,1.2,-4.7
+435,Bath & Body Works,Specialty Retailers: Other,www.bbwinc.com,Columbus,OH,43230,"32,850",BBWI,"$7,882",257,-33.5,"$1,334",57.9,"$6,026","-$1,518","$11,420",16.9,22.1,,4.88,62.7,4.2,6.1,132.8,9.8,13
+436,Booz Allen Hamilton Holding,Information Technology Services,www.boozallen.com,McLean,VA,22102,"27,700",BAH,"$7,859",391,5.3,$609,26.2,"$5,500","$1,071","$11,705",7.7,11.1,56.8,4.37,28.2,17.6,20.8,-1,20.6,26.1
+437,Coinbase Global,Securities,www.coinbase.com,Wilmington,DE,19801,"3,730",COIN,"$7,839",,513.7,"$3,624","1,024.40","$21,274","$6,382","$41,670",46.2,17,56.8,14.5,,,,,,
+438,Zimmer Biomet Holdings,Medical Products and Equipment,www.zimmerbiomet.com,Warsaw,IN,46580,"19,500",ZBH,"$7,836",414,11.6,$402,,"$23,456","$12,661","$26,772",5.1,1.7,3.2,1.91,,4.8,-7.2,-17.1,5,9.9
+439,Westinghouse Air Brake Technologies,Industrial Machinery,www.wabteccorp.com,Pittsburgh,PA,15212,"25,000",WAB,"$7,822",384,3.5,$558,34.7,"$18,454","$10,201","$17,819",7.1,3,5.5,2.96,36.4,-2.4,5.4,26.6,2.7,10.7
+440,Zoetis,Pharmaceuticals,www.zoetis.com,Parsippany,NJ,7054,"12,100",ZTS,"$7,776",431,16.5,"$2,037",24.4,"$13,900","$4,543","$89,009",26.2,14.7,44.8,4.27,24.9,20.9,,48.2,36.2,
+441,Packaging Corp. of America,"Packaging, Containers",www.packagingcorp.com,Lake Forest,IL,60045,"15,200",PKG,"$7,730",433,16.1,$841,82.5,"$7,837","$3,607","$14,628",10.9,10.7,23.3,8.83,82.4,13.2,18.9,1.6,13.1,21.9
+442,LPL Financial Holdings,Securities,www.lpl.com,San Diego,CA,92121,"5,919",LPLA,"$7,721",466,31.5,$460,-2.7,"$7,992","$1,671","$14,609",6,5.8,27.5,5.63,-3.9,21.5,14.1,54.6,37.3,20.8
+443,T. Rowe Price,Securities,www.troweprice.com,Baltimore,MD,21202,"7,529",TROW,"$7,672",447,23.6,"$3,083",29.9,"$12,509","$9,023","$34,443",40.2,24.6,34.2,13.12,31.5,22.5,16.2,34.8,24.8,16.7
+444,Fortune Brands Home & Security,"Home Equipment, Furnishings",www.fbhs.com,Deerfield,IL,60015,"28,056",FBHS,"$7,656",456,25.7,$772,39.6,"$7,936","$3,065","$9,831",10.1,9.7,25.2,5.54,40.6,16.2,,26,16.5,21.5
+445,Casey's General Stores,Specialty Retailers: Other,www.caseys.com,Ankeny,IA,50021,"27,583",CASY,"$7,654",371,-5.6,$313,18.6,"$4,460","$1,933","$7,354",4.1,7,16.2,8.38,18,7.9,14.2,11.2,11.6,15.4
+446,A-Mark Precious Metals,Wholesalers: Diversified,www.amark.com,El Segundo,CA,90245,347,AMRK,"$7,613",495,39.4,$160,423.2,"$1,192",$363,$891,2.1,13.4,44,17.79,312.8,68.8,,146.6,29.6,
+447,Hess,"Mining, Crude-Oil Production",www.hess.com,New York,NY,10036,"1,545",HES,"$7,583",,57.8,$559,,"$20,515","$6,300","$33,155",7.4,2.7,8.9,1.81,,,-9.7,42.1,5.4,4.3
+448,Vertex Pharmaceuticals,Pharmaceuticals,www.vrtx.com,Boston,MA,2210,"3,900",VRTX,"$7,574",448,22.1,"$2,342",-13.6,"$13,433","$10,100","$66,437",30.9,17.4,23.2,9.01,-12.4,,51.7,-7.1,24.4,20.8
+449,KeyCorp,Commercial Banks,www.key.com,Cleveland,OH,44114,"16,974",KEY,"$7,561",396,3.1,"$2,625",95.5,"$186,346","$17,423","$20,593",34.7,1.4,15.1,2.63,107.1,26.9,11.7,45.9,8.6,14.9
+450,Chipotle Mexican Grill,Food Services,www.chipotle.com,Newport Beach,CA,92660,"97,660",CMG,"$7,547",464,26.1,$653,83.5,"$6,653","$2,297","$44,347",8.7,9.8,28.4,22.9,82.9,97.1,13,26.1,35.9,17.9
+451,CMS Energy,Utilities: Gas and Electric,www.cmsenergy.com,Jackson,MI,49201,"8,813",CMS,"$7,538",430,12.8,"$1,353",79.2,"$28,753","$6,631","$20,292",17.9,4.7,20.4,4.66,76.5,18.7,11.4,9.8,12.5,15
+452,Arconic,Metals,www.arconic.com,Pittsburgh,PA,15212,"13,900",ARNC,"$7,504",476,32.2,-$397,,"$6,580","$1,545","$2,691",-5.3,-6,-25.7,-3.65,,,,10.8,,
+453,Taylor Morrison Home,Homebuilders,www.taylormorrison.com,Scottsdale,AZ,85251,"3,000",TMHC,"$7,501",452,22.4,$663,172.4,"$8,728","$3,926","$3,302",8.8,7.6,16.9,5.18,175.5,25.1,,36.3,12.7,
+454,American Financial Group,Insurance: Property and Casualty (Stock),www.afginc.com,Cincinnati,OH,45202,"6,600",AFG,"$7,462",376,-5.7,"$1,995",172.5,"$28,931","$5,012","$12,368",26.7,6.9,39.8,23.3,184.1,26,21.5,91,18,20.3
+455,UGI,Utilities: Gas and Electric,www.ugicorp.com,King of Prussia,PA,19406,"11,300",UGI,"$7,447",436,13.5,"$1,467",175.8,"$16,723","$5,522","$7,599",19.7,8.8,26.6,6.92,172.4,27.2,16.9,35.7,2.7,11.9
+456,Science Applications International,Information Technology Services,www.saic.com,Reston,VA,20190,"25,090",SAIC,"$7,394",412,4.8,$277,32.5,"$5,746","$1,619","$5,166",3.7,4.8,17.1,4.77,34,8.2,,-10.2,1.4,
+457,Avantor,"Scientific, Photographic and Control Equipment",www.avantorsciences.com,Radnor,PA,19087,"13,500",AVTR,"$7,386",438,15.5,$573,391.1,"$13,897","$3,193","$20,629",7.8,4.1,17.9,0.85,844.4,,,49.7,,
+458,Hanesbrands,Apparel,www.hanes.com,Winston-Salem,NC,27105,"58,000",HBI,"$7,348",432,10.3,$77,,"$7,071",$703,"$5,191",1.1,1.1,11,0.22,,-30.9,-10.6,18.4,-1.5,14.4
+459,Clorox,Household and Personal Products,www.thecloroxcompany.com,Oakland,CA,94612,"9,000",CLX,"$7,341",427,9.2,$710,-24.4,"$6,334",$411,"$17,109",9.7,11.2,172.7,5.58,-24.2,2.5,3.3,-11.4,10.5,13.2
+460,KBR,"Engineering, Construction",www.kbr.com,Houston,TX,77002,"28,000",KBR,"$7,339",470,27.3,$18,,"$6,199","$1,687","$7,635",0.2,0.3,1.1,0.12,,,-27.9,55.7,25.3,7.1
+461,TravelCenters of America,Specialty Retailers: Other,www.ta-petro.com,Westlake,OH,44145,"16,540",TA,"$7,337",,51.4,$59,,"$3,509",$703,$638,0.8,1.7,8.3,4.01,,,-2,58.3,7.8,9.3
+462,Hertz Global Holdings,"Automotive Retailing, Services",www.hertz.com,Estero,FL,33928,"23,000",HTZ,"$7,336",,39.5,$366,,"$19,783","$2,977","$9,509",5,1.9,12.3,-0.27,,,,,,
+463,Analog Devices,Semiconductors and Other Electronic Components,www.analog.com,Wilmington,MA,1887,"24,700",ADI,"$7,318",481,30.6,"$1,390",13.9,"$52,322","$37,993","$86,441",19,2.7,3.7,3.46,5.5,4.6,2.1,21,21.7,20.1
+464,Securian Financial Group,"Insurance: Life, Health (Stock)",www.securian.com,St. Paul,MN,55101,"6,941",,"$7,317",421,6.5,$312,28.1,"$75,169","$6,893",,4.3,0.4,4.5,,,,,,,
+465,Darden Restaurants,Food Services,www.darden.com,Orlando,FL,32837,"156,883",DRI,"$7,196",377,-7.8,$629,,"$10,656","$2,813","$16,981",8.7,5.9,22.4,4.77,,10.5,3.5,29.5,18.5,17.6
+466,NCR,"Computers, Office Equipment",www.ncr.com,Atlanta,GA,30308,"38,000",NCR,"$7,156",446,15.3,$97,,"$11,641","$1,530","$5,475",1.4,0.8,6.3,0.58,,-19.4,5.8,7,-0.2,9.3
+466,Graphic Packaging Holding,"Packaging, Containers",www.graphicpkg.com,Atlanta,GA,30328,"25,000",GPK,"$7,156",435,9.1,$204,21.9,"$10,457","$1,891","$6,154",2.9,2,10.8,0.68,13.3,-0.9,-0.7,17,11.6,18
+468,Brighthouse Financial,"Insurance: Life, Health (Stock)",www.brighthousefinancial.com,Charlotte,NC,28277,"1,500",BHF,"$7,142",353,-16,-$108,,"$259,840","$16,142","$3,959",-1.5,-,-0.7,-2.36,,,,43.1,,
+469,PPL,Utilities: Gas and Electric,www.pplweb.com,Allentown,PA,18101,"5,607",PPL,"$7,127",382,-6.3,"-$1,480",-200.7,"$33,223","$13,723","$21,002",-20.8,-4.5,-10.8,-1.93,-201,,,13,3,6.2
+470,Cintas,Diversified Outsourcing Services,www.cintas.com,Cincinnati,OH,45262,"40,000",CTAS,"$7,116",410,0.4,"$1,111",26.8,"$8,237","$3,688","$43,567",15.6,13.5,30.1,10.24,26.3,10.5,19.8,26.5,32.2,30.6
+471,Xerox Holdings,"Computers, Office Equipment",www.xerox.com,Norwalk,CT,6851,"23,300",XRX,"$7,038",415,0.2,-$455,-337,"$13,223","$4,650","$3,123",-6.5,-3.4,-9.8,-2.56,-404.8,,,2.2,2.4,3.4
+472,Rockwell Automation,"Electronics, Electrical Equip.",www.rockwellautomation.com,Milwaukee,WI,53204,"24,500",ROK,"$6,997",440,10.5,"$1,358",32.7,"$10,702","$2,390","$32,538",19.4,12.7,56.8,11.58,32,15.8,9.2,41.1,23.4,19.4
+473,Citizens Financial Group,Commercial Banks,www.citizensbank.com,Providence,RI,2903,"17,463",CFG,"$6,986",381,-9,"$2,319",119.4,"$188,409","$23,420","$19,136",33.2,1.2,9.9,5.16,132.4,21.2,,36.7,9.5,
+474,KLA,Semiconductors and Other Electronic Components,www.kla.com,Milpitas,CA,95035,"11,425",KLAC,"$6,919",468,19.2,"$2,078",70.8,"$10,271","$3,378","$55,171",30,20.2,61.5,13.37,73.6,24.4,11.1,68,43.4,30.4
+475,Camping World Holdings,"Automotive Retailing, Services",www.campingworld.com,Lincolnshire,IL,60069,"12,834",CWH,"$6,914",496,26.9,$279,127.6,"$4,373",$158,"$2,665",4,6.4,176.2,6.07,96.4,144.1,,61,8.9,
+476,Ingredion,Food Production,www.ingredion.com,Westchester,IL,60154,"12,000",INGR,"$6,894",463,15.1,$117,-66.4,"$6,999","$3,100","$5,814",1.7,1.7,3.8,1.73,-66.4,-23.4,-10.6,26.5,-2.6,8.7
+477,Veritiv,Wholesalers: Diversified,www.veritivcorp.com,Atlanta,GA,30328,"6,100",VRTV,"$6,851",439,8,$145,322.8,"$2,438",$636,"$2,008",2.1,5.9,22.7,9.01,333.2,47.3,,489.6,17.9,
+478,Beacon Roofing Supply,Wholesalers: Diversified,www.becn.com,Herndon,VA,20170,"6,676",BECN,"$6,820",420,-1.8,$243,,"$5,549","$2,212","$4,176",3.6,4.4,11,2.67,,12.4,7.7,42.7,4.5,11
+479,Diamondback Energy,"Mining, Crude-Oil Production",www.diamondbackenergy.com,Midland,TX,79701,870,FANG,"$6,797",,141.6,"$2,182",,"$22,898","$12,088","$24,320",32.1,9.5,18.1,12.3,,,,127.6,2.8,
+480,Victoria's Secret,Specialty Retailers: Apparel,www.victoriassecretandco.com,Reynoldsburg,OH,43068,"24,000",VSCO,"$6,785",,,$646,,"$4,344",$257,"$4,330",9.5,14.9,251.5,7.18,,,,,,
+481,Academy Sports and Outdoors,Specialty Retailers: Other,www.academy.com,Katy,TX,77449,"16,508",ASO,"$6,773",475,19.1,$671,117.4,"$4,585","$1,467","$3,434",9.9,14.6,45.8,7.12,87.9,,,111.8,,
+482,Sanmina,Semiconductors and Other Electronic Components,www.sanmina.com,San Jose,CA,95134,"33,500",SANM,"$6,757",418,-2.9,$269,92.5,"$4,207","$1,879","$2,569",4,6.4,14.3,4.01,103.6,11,17.1,30,2.5,16.1
+483,ON Semiconductor,Semiconductors and Other Electronic Components,www.onsemi.com,Phoenix,AZ,85008,"31,650",ON,"$6,740",,28.3,"$1,010",331.1,"$9,626","$4,585","$27,079",15,10.5,22,2.27,305.4,39.5,54.1,107.5,39.7,24.3
+484,Commercial Metals,Metals,www.cmc.com,Irving,TX,75039,"11,089",CMC,"$6,730",492,22.9,$413,47.7,"$4,639","$2,295","$5,057",6.1,8.9,18,3.38,45.7,48.4,,79.9,13.3,13.1
+485,EnLink Midstream,Pipelines,www.enlink.com,Dallas,TX,75201,"1,073",ENLC,"$6,686",,71.7,$22,,"$8,483","$1,324","$4,671",0.3,0.3,1.7,0.05,,,,99.1,-10,0.8
+486,Southwestern Energy,"Mining, Crude-Oil Production",www.swn.com,Spring,TX,77389,938,SWN,"$6,667",,188.9,-$25,,"$11,848","$2,547","$7,990",-0.4,-0.2,-1,-0.03,,,,56.4,-15.5,-17.5
+487,Equinix,Real Estate,www.equinix.com,Redwood City,CA,94065,"10,944",EQIX,"$6,636",461,10.6,$500,35.3,"$27,919","$10,882","$67,281",7.5,1.8,4.6,5.53,32.3,25.3,12.4,20.2,21,26.2
+488,Dillard's,General Merchandisers,www.dillards.com,Little Rock,AR,72201,"25,350",DDS,"$6,624",,49.4,$863,,"$3,246","$1,451","$4,928",13,26.6,59.4,41.88,,53.4,17.3,313,33.9,20.5
+489,Regions Financial,Commercial Banks,www.regions.com,Birmingham,AL,35203,"19,626",RF,"$6,605",434,-0.8,"$2,521",130.4,"$162,938","$18,326","$20,861",38.2,1.5,13.8,2.49,141.7,23.4,,39.7,12.5,20.6
+490,Yum Brands,Food Services,www.yum.com,Louisville,KY,40213,"25,650",YUM,"$6,584",478,16.5,"$1,575",74.2,"$5,966","-$8,373","$34,253",23.9,26.4,,5.21,77.2,5.2,6.6,30,19,14.8
+491,Landstar System,"Trucking, Truck Leasing",www.landstar.com,Jacksonville,FL,32224,"1,399",LSTR,"$6,540",,58.1,$382,98.6,"$2,046",$862,"$5,600",5.8,18.7,44.3,9.98,100.4,25.2,15.4,35.4,17.7,15.5
+492,CF Industries Holdings,Chemicals,www.cfindustries.com,Deerfield,IL,60015,"3,003",CF,"$6,538",,58.5,$917,189.3,"$12,375","$3,206","$21,551",14,7.4,28.6,4.24,188.4,,-0.4,87.2,21.2,12.1
+493,Northern Trust,Commercial Banks,www.northerntrust.com,Chicago,IL,60603,"21,100",NTRS,"$6,488",443,3,"$1,545",27.8,"$183,890","$12,017","$24,215",23.8,0.8,12.9,7.14,30.8,10.6,11.2,31.9,8.7,14.3
+494,Robert Half International,Temporary Help,www.roberthalf.com,Menlo Park,CA,94025,"14,600",RHI,"$6,461",,26.5,$599,95.5,"$2,952","$1,381","$12,638",9.3,20.3,43.3,5.36,98.5,15,17.8,81.4,20.4,16.8
+495,Compass,Internet Services and Retailing,www.compass.com,New York,NY,10011,"4,775",COMP,"$6,421",,72.6,-$494,,"$1,801",$844,"$3,359",-7.7,-27.4,-58.6,-1.51,,,,,,
+496,Hasbro,"Toys, Sporting Goods",www.hasbro.com,Pawtucket,RI,2861,"6,640",HAS,"$6,420",494,17.5,$429,92.7,"$10,038","$3,026","$11,384",6.7,4.3,14.2,3.1,91.4,-6.5,1,11.9,8.5,15.6
+497,Roper Technologies,Computer Software,www.ropertech.com,Sarasota,FL,34240,"19,300",ROP,"$6,416",488,16.1,"$1,153",21.4,"$23,714","$11,564","$49,869",18,4.9,10,10.82,20.5,11,9.6,14.7,22.5,19.6
+498,ARKO,Specialty Retailers: Other,www.arkocorp.com,Richmond,VA,23227,"11,236",ARKO,"$6,413",,88.1,$59,348.9,"$2,942",$354,"$1,134",0.9,2,16.7,0.42,200,,,-2.6,,
+499,Frontier Communications,Telecommunications,www.frontier.com,Norwalk,CT,6851,"15,640",FYBR,"$6,411",402,-10.4,,,"$16,481","$4,600","$6,763",,,,,,,,,,
+500,Ameren,Utilities: Gas and Electric,www.ameren.com,St. Louis,MO,63103,"9,116",AEE,"$6,394",469,10.4,$990,13.7,"$35,735","$9,700","$24,199",15.5,2.8,10.2,3.84,9.7,7.5,6,17,14.3,14.3
